@@ -1,0 +1,16 @@
+---
+pagetitle: "Premis · Va De Dades!"
+lang: ca
+---
+
+<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+
+:::: {.seccion .crema .cabecera-pagina}
+# Premis
+::::
+
+::: {.lectura}
+::: {.aviso}
+Estem traslladant aquesta secció a la nova web. Mentrestant, pots consultar-la en la web anterior: [https://vadedades.umh.es/ca/premis/](https://vadedades.umh.es/ca/premis/)
+:::
+:::

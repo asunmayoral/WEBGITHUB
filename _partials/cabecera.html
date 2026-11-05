@@ -1,0 +1,76 @@
+<!--
+  CABECERA Y MENÚ (común a todas las páginas)
+  Hay dos menús: uno en castellano y otro en valenciano.
+  Cada página muestra el suyo según su idioma (lang: es / lang: ca).
+  Los enlaces se escriben relativos a la raíz de la web (sin "/" inicial).
+  Para añadir o quitar un apartado del menú, copia o borra una línea <li>.
+-->
+<a class="saltar" href="#quarto-document-content">Saltar al contenido</a>
+<header class="vdd-cabecera">
+  <div class="vdd-cabecera-int">
+    <a class="vdd-marca" data-ruta="index.html" data-ruta-ca="ca/index.html" aria-label="Va De Dades! Inicio">
+      <img src="data:," data-src="img/logo-vadedades.webp" alt="Va De Dades!" width="84" height="61">
+    </a>
+
+    <input type="checkbox" id="vdd-menu-toggle" class="vdd-menu-toggle" aria-label="Abrir menú">
+    <label for="vdd-menu-toggle" class="vdd-hamburguesa" aria-hidden="true"><span></span></label>
+
+    <!-- Menú en castellano -->
+    <nav class="vdd-menu solo-es" aria-label="Menú principal">
+      <ul>
+        <li><a data-ruta="index.html">Inicio</a></li>
+        <li><a data-ruta="bases.html">Bases</a></li>
+        <li><a data-ruta="ayudas.html">Ayudas</a></li>
+        <li><a data-ruta="premios.html">Premios</a></li>
+        <li><a data-ruta="blog.html">Noticias</a></li>
+        <li><a data-ruta="acerca-de.html">Quiénes somos</a></li>
+        <li class="destacado"><a href="https://docs.google.com/forms/d/1t6WzJRhqXar0djoKCI3yHNbilAr-fhXcNGv9MoOp-YQ/viewform" target="_blank" rel="noopener">Inscripción</a></li>
+        <li class="idioma"><a data-ruta="ca/index.html" hreflang="ca" lang="ca">Valencià</a></li>
+      </ul>
+    </nav>
+
+    <!-- Menú en valenciano -->
+    <nav class="vdd-menu solo-ca" aria-label="Menú principal">
+      <ul>
+        <li><a data-ruta="ca/index.html">Inici</a></li>
+        <li><a data-ruta="ca/bases.html">Bases</a></li>
+        <li><a data-ruta="ca/ajudes.html">Ajudes</a></li>
+        <li><a data-ruta="ca/premis.html">Premis</a></li>
+        <li><a data-ruta="ca/blog.html">Notícies</a></li>
+        <li><a data-ruta="ca/acerca-de.html">Qui som</a></li>
+        <li class="destacado"><a href="https://forms.gle/7USnZzbDSPwYT5P1A" target="_blank" rel="noopener">Inscripció</a></li>
+        <li class="idioma"><a data-ruta="index.html" hreflang="es" lang="es">Castellano</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+/* Convierte las rutas del menú en enlaces que funcionan desde cualquier carpeta
+   (raíz o /ca/) y tanto en GitHub Pages como abriendo los archivos en local. */
+(function () {
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var base = meta ? meta.getAttribute('content') : './';
+  var esCa = (document.documentElement.lang || '').indexOf('ca') === 0;
+  document.querySelectorAll('.vdd-cabecera [data-ruta]').forEach(function (a) {
+    var ruta = (esCa && a.dataset.rutaCa) ? a.dataset.rutaCa : a.dataset.ruta;
+    a.setAttribute('href', base + ruta);
+    var actual = location.pathname.replace(/\/$/, '/index.html');
+    if (actual.slice(-ruta.length) === ruta && !a.closest('.idioma')) a.setAttribute('aria-current', 'page');
+  });
+  // El botón de idioma lleva a la página equivalente en el otro idioma.
+  // Si añades una página nueva con nombre distinto en cada idioma, añádela aquí: "castellano": "valencià"
+  var equivalencias = { "index": "index", "bases": "bases", "ayudas": "ajudes", "premios": "premis",
+                        "blog": "blog", "acerca-de": "acerca-de" };
+  var pagina = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '');
+  var destino = null;
+  if (esCa) { for (var k in equivalencias) if (equivalencias[k] === pagina) destino = k; }
+  else if (equivalencias[pagina]) destino = 'ca/' + equivalencias[pagina];
+  if (destino) document.querySelectorAll('.vdd-cabecera .idioma a').forEach(function (a) {
+    a.setAttribute('href', base + destino + '.html');
+  });
+  document.querySelectorAll('.vdd-cabecera img[data-src]').forEach(function (img) {
+    img.src = base + img.dataset.src;
+  });
+})();
+</script>

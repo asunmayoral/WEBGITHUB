@@ -1,0 +1,23 @@
+<!-- PIE DE PÁGINA (común a todas las páginas) -->
+<footer class="vdd-pie">
+  <div class="vdd-pie-int">
+    <div class="vdd-pie-logos">
+      <img data-src="img/logos-organizadores.webp" src="data:," alt="Universidad Miguel Hernández de Elche, Universitat Politècnica de València y Universitat de València" width="705" height="62" loading="lazy">
+    </div>
+    <p class="solo-es">
+      <strong>Va De Dades!</strong> · Concurso Valenciano de Estadística para la Ciencia de Datos<br>
+      Contacto: <a href="mailto:vadedades@umh.es">vadedades@umh.es</a>
+    </p>
+    <p class="solo-ca">
+      <strong>Va De Dades!</strong> · Concurs Valencià d'Estadística per a la Ciència de Dades<br>
+      Contacte: <a href="mailto:vadedades@umh.es">vadedades@umh.es</a>
+    </p>
+  </div>
+</footer>
+<script>
+(function () {
+  var meta = document.querySelector('meta[name="quarto:offset"]');
+  var base = meta ? meta.getAttribute('content') : './';
+  document.querySelectorAll('.vdd-pie img[data-src]').forEach(function (img) { img.src = base + img.dataset.src; });
+})();
+</script>

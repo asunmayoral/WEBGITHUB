@@ -1,0 +1,40 @@
+# Configuración general de la web Va De Dades!
+# ------------------------------------------------
+# Normalmente no necesitas tocar este archivo.
+# El contenido de cada página está en los archivos .qmd
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "ca/*.qmd"
+  resources:
+    - img/
+    - estilos/fuentes/
+    - CNAME
+
+website:
+  title: "Va De Dades!"
+  description: "Concurs Valencià d'Estadística per a la Ciència de Dades"
+  favicon: img/favicon.png
+  page-navigation: false
+  open-graph:
+    image: img/og-image.jpg
+
+lang: es
+
+format:
+  html:
+    theme:
+      - cosmo
+      - estilos/vadedades.scss
+    page-layout: full
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    # Cabecera (menú) y pie comunes a todas las páginas, en los dos idiomas
+    css: estilos/fuentes.css
+    include-before-body: _partials/cabecera.html
+    include-after-body: _partials/pie.html

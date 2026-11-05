@@ -1,0 +1,16 @@
+---
+pagetitle: "Quiénes somos · Va De Dades!"
+lang: es
+---
+
+<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+
+:::: {.seccion .crema .cabecera-pagina}
+# Quiénes somos
+::::
+
+::: {.lectura}
+::: {.aviso}
+Estamos trasladando esta sección a la nueva web. Mientras tanto, puedes consultarla en la web anterior: [https://vadedades.umh.es/acerca_de/](https://vadedades.umh.es/acerca_de/)
+:::
+:::

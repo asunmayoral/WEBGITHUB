@@ -1,0 +1,43 @@
+# Publica la web automáticamente en GitHub Pages cada vez que subes cambios a la rama main.
+# Requisito (una sola vez): Settings → Pages → Source: "GitHub Actions".
+# No necesitas tocar este archivo.
+name: Publicar web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Generar la web
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Preparar la web para GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publicar
+        id: despliegue
+        uses: actions/deploy-pages@v4
