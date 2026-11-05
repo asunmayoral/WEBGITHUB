@@ -17,7 +17,7 @@ WEBGITHUB/
 │   └── pie.html         ← pie de página (logos y correo)
 ├── estilos/
 │   ├── vadedades.scss   ← colores, tipografías y diseño
-│   ├── fuentes.css      ← tipografías Baloo 2 y Open Sans
+│   ├── fuentes.css      ← tipografía Plus Jakarta Sans
 │   └── fuentes/
 ├── img/                 ← imágenes (en formato .webp, ligero)
 │   └── iconos/          ← iconos de las tarjetas (bases, inscripción, ayudas, premios)

@@ -16,15 +16,15 @@ $vdd-texto:          #3d3a36;
 
 // Tipografías: alojadas en estilos/fuentes/ (ver estilos/fuentes.css)
 
-$font-family-sans-serif: "Open Sans", Arial, sans-serif;
-$headings-font-family: "Baloo 2", "Open Sans", sans-serif;
-$headings-font-weight: 700;
+$font-family-sans-serif: "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Plus Jakarta Sans", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 800;
 $headings-color: $vdd-naranja;
 $body-color: $vdd-texto;
 $body-bg: #ffffff;
 $link-color: $vdd-morado-osc;
 $primary: $vdd-morado;
-$font-size-root: 17px;
+$font-size-root: 16.5px;
 
 
 /*-- scss:rules --*/
@@ -36,7 +36,7 @@ body { background: #fff; overflow-x: hidden; }
 #quarto-content { display: block !important; padding: 0 !important; max-width: none !important; margin: 0 !important; }
 main.content { margin: 0 !important; padding: 0 !important; max-width: none !important; }
 #title-block-header { display: none; }
-h1, h2, h3 { border-bottom: none !important; letter-spacing: 0; }
+h1, h2, h3 { border-bottom: none !important; letter-spacing: -0.015em; line-height: 1.15; }
 h2 { font-size: 2rem; margin-bottom: 1rem; }
 .seccion p:empty { display: none; }
 
@@ -152,7 +152,7 @@ $ola2: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 
 .portada img.logo-portada { width: 100%; max-width: 440px; height: auto; }
 .portada > p:first-child { margin: 0; height: 0; }
 .portada .contenedor p { margin-bottom: .5rem; }
-.portada .lema { display: block; font-family: "Baloo 2", sans-serif; line-height: 1.25; font-size: 1.7rem; margin: 1rem 0 .5rem; color: $vdd-morado-osc; font-weight: 700; }
+.portada .lema { display: block; font-family: "Plus Jakarta Sans", sans-serif; line-height: 1.25; font-size: 1.7rem; margin: 1rem 0 .5rem; color: $vdd-morado-osc; font-weight: 700; }
 .portada img.ilustracion { width: 100%; max-width: 560px; height: auto; display: block; margin-left: auto; }
 .portada .nube { position: absolute; width: 120px; opacity: .95; pointer-events: none; }
 .portada .nube-1 { top: 1.5rem; left: 4%; }
@@ -197,7 +197,7 @@ a.tarjeta {
   img { width: 72%; max-width: 130px; height: auto; }
   .etiqueta {
     display: block; width: 100%; text-align: center;
-    font-family: "Baloo 2", sans-serif; font-weight: 700; font-size: 1.35rem; line-height: 1.2;
+    font-family: "Plus Jakarta Sans", sans-serif; font-weight: 700; font-size: 1.35rem; line-height: 1.2;
     color: #fff; background: var(--color); border: 3px solid #fff; border-radius: 12px; padding: .3rem .4rem .15rem;
   }
   &:hover, &:focus-visible { transform: translateY(-4px); box-shadow: 0 8px 0 rgba(0,0,0,.1); }
