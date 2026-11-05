@@ -86,8 +86,8 @@ súbelo, y en *Settings → Pages* escribe `vadedades.umh.es` en *Custom domain*
 ## Pendiente
 
 - [x] Portada (castellano y valenciano)
-- [ ] Bases
+- [x] Bases
 - [ ] Ayudas / Ajudes
-- [ ] Premios / Premis (ediciones 2023 a 2026)
+- [x] Premios / Premis (ediciones 2023 a 2026)
 - [ ] Noticias / Notícies (17 entradas del blog, con galerías y vídeos)
 - [ ] Quiénes somos / Qui som

@@ -1,16 +1,153 @@
 ---
 pagetitle: "Bases · Va De Dades!"
+description: "Bases del concurs Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades."
 lang: ca
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+<!-- BASES DEL CONCURS (valencià). Instruccions d'edició en ../bases.qmd -->
 
 :::: {.seccion .crema .cabecera-pagina}
-# Bases
+# Bases del concurs
+
+[Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades]{.intro}
+
+::: {.botones .centrado}
+[Descarrega les bases en PDF](https://drive.google.com/file/d/1SeB-2tgjp5spsmyAcjAKU6D7nkc9PC-z/view?usp=sharing){.boton}
+:::
 ::::
 
-::: {.lectura}
-::: {.aviso}
-Estem traslladant aquesta secció a la nova web. Mentrestant, pots consultar-la en la web anterior: [https://vadedades.umh.es/ca/bases/](https://vadedades.umh.es/ca/bases/)
+:::: {.seccion .blanco}
+::: {.lectura .texto-largo}
+
+::: {.indice-bases}
+**Índex**
+
+1. [Convocatòria](#convocatoria)
+2. [Participació](#participacio)
+3. [Objecte del concurs](#objecte)
+4. [Inscripció](#inscripcio)
+5. [Lliurament de treballs](#lliurament)
+6. [Premis](#premis)
+7. [Criteris de valoració](#criteris)
+8. [Decisió del jurat i lliurament de premis](#decisio)
+9. [Calendari](#calendari)
+10. [Publicació dels treballs](#publicacio)
+11. [Reserva de drets](#reserva)
+12. [Participació en la fase nacional](#fase-nacional)
+13. [Acceptació de les bases](#acceptacio)
 :::
+
+## 1. Convocatòria {#convocatoria}
+
+El Departamento de Estadística, Matemáticas e Informática de la Universidad Miguel Hernández d'Elx (UMH), en col·laboració amb el Departamento de Estadística e Investigación Operativa Aplicadas y Calidad de la Universitat Politècnica de València (UPV) i el Departament d'Estadística i Investigació Operativa de la Universitat de València (UV), convoquen el concurs Va De Dades! Concurs valencià d'Estadística per a la Ciència de Dades, per a treballs d'Estadística presentats per estudiants d'ESO, Batxillerat i Cicles Formatius.
+
+Les professores responsables d'aquesta activitat en les seues respectives universitats són: M.ª Asunción Martínez Mayoral (UMH), Carmen Aguilera Morillo (UPV) i María del Carmen Martínez Blázquez (UV).
+
+Aquest concurs es conforma com una fase local en la Comunitat Valenciana del Concurs Tipus "Incubadora de Sondeos y Experimentos" ([Concurso Incubadora – SEIO](https://www.seio.es/concurso-incubadora/)) organitzat per la Sociedad de Estadística e Investigación Operativa (SEIO).
+
+El nom del concurs, "Va De Dades!", està inspirat en l'expressió "Va de bo!" amb la qual comença una partida de pilota valenciana.
+
+## 2. Participació {#participacio}
+
+Poden participar estudiants d'ESO, Batxillerat i Cicles Formatius, individualment o per grups d'un màxim de 5 estudiants. Cada grup haurà de ser tutoritzat per professores o professors del seu centre. No hi ha limitació de concursants per a un mateix centre, ni de treballs tutoritzats per una mateixa professora o professor. Només es permet una participació per estudiant.
+
+## 3. Objecte del concurs: proposta i realització d'un treball/projecte d'Estadística {#objecte}
+
+Les i els participants en el concurs faran un treball d'Estadística, presentat a través d'un informe escrit, redactat en qualsevol de les llengües oficials de la Comunitat Valenciana. Aquest treball haurà d'utilitzar tècniques i conceptes estadístics per a donar resposta a una pregunta rellevant o d'interés per a l'equip concursant i el seu entorn. El treball ha d'incloure informació sobre el procés de recollida de dades, així com la seua descripció gràfica i numèrica. En la web del concurs poden consultar-se alguns [esquemes orientatius](ajudes.qmd) per a la realització dels treballs.
+
+**Les dades poden provindre de les fonts següents:**
+
+- **Un sondeig** dissenyat per l'equip concursant sobre un tema d'interés general o d'interés per al centre educatiu o el seu entorn. En aquest cas, el qüestionari utilitzat per a la recollida de dades haurà d'incloure's en el treball.
+- **Un pla experimental** per a comparar productes, tractaments o esdeveniments sobre una població concreta. L'experiment plantejat pot estar relacionat amb alguna de les matèries que l'alumnat participant estiga cursant o qualsevol fenomen quotidià d'interés, treballat amb rigor experimental i científic.
+- **Bases de dades d'entitats oficials** com EUROSTAT, INE, instituts d'estadística autonòmics, com l'IVE…, d'accés públic a través de les seues pàgines web.
+
+Les i els participants en el concurs escriuran un informe en el qual es descriga el treball realitzat. L'informe, el contingut i l'estructura del qual és lliure, haurà de presentar-se en format "pdf", i no podrà superar les 30 pàgines (annexos inclosos). La grandària de la lletra ha de ser Arial 11 punts. L'informe ha d'anar acompanyat d'una presentació en vídeo (de no més de 5 minuts de duració) que servisca de suport a l'eventual presentació en públic del treball.
+
+Tant en l'informe com en la presentació en vídeo s'ha d'especificar: l'objectiu de l'estudi, la forma en què es duu a terme la recollida de les dades (segons el cas: disseny de l'enquesta i elecció dels individus enquestats, disseny i desenvolupament de l'experiment o referència a la font de les dades i explicació del seu origen), la descripció i anàlisi de les dades, els resultats obtinguts i les conclusions de l'estudi.
+
+En la redacció de l'informe i en l'edició del vídeo podran utilitzar-se qualssevol de les llengües cooficials de la Comunitat Valenciana.
+
+En cas que el treball siga seleccionat per a passar a la fase nacional, i els autors decidisquen participar, l'idioma obligatori de l'informe i del vídeo a presentar allí serà el castellà.
+
+Els treballs presentats han de ser inèdits. No s'admetran investigacions plagiades en part o íntegrament. També s'invalidaran els treballs que no hagen sigut realitzats per l'alumnat participant.
+
+![](../img/bases/grafico.webp){fig-alt="" loading="lazy" width="560"}
+
+## 4. Inscripció {#inscripcio}
+
+Per a participar en el concurs és necessari inscriure's, emplenant el **[formulari d'inscripció](https://forms.gle/7USnZzbDSPwYT5P1A)** que a aquest efecte es facilita en la pàgina web del concurs.
+
+La inscripció la realitzarà el professorat que tutoritza el grup i ha d'incloure un email de contacte, les dades de l'alumnat participant i el títol del treball, així com informació del centre de referència. El termini d'inscripció, així com totes les dates rellevants, es detallen en la pàgina web del concurs. Tota la comunicació amb el grup de treball es gestionarà a través de l'email de contacte del professorat tutor.
+
+## 5. Lliurament de treballs {#lliurament}
+
+L'informe i el vídeo del treball han d'enviar-se a través del **formulari de lliurament** facilitat a aquest efecte en la pàgina web del concurs.
+
+El termini de presentació de treballs, així com totes les dates rellevants, es detallen en la pàgina web del concurs.
+
+## 6. Premis {#premis}
+
+Un jurat mixt compost per professorat universitari i de secundària avaluarà els treballs presentats i concedirà com a màxim un premi en cadascuna de les següents categories:
+
+- **Categoria A:** 1r i 2n de l'ESO.
+- **Categoria B:** 3r i 4t de l'ESO i Cicles Formatius de Grau Bàsic.
+- **Categoria C:** Batxillerat i Cicles Formatius de Grau Mitjà.
+
+![](../img/categorias-abc.webp){fig-alt="Categories A, B i C" loading="lazy" width="560"}
+
+El jurat podrà atorgar els esments que considere oportuns. La decisió del jurat serà inapel·lable.
+
+La participació en el concurs, els esments i els premis aconseguits s'acreditaran mitjançant diplomes atorgats per l'organització a alumnat, professorat i centre. Els premis o quanties d'aquests seran publicats en la pàgina web del concurs.
+
+Els equips guanyadors de les tres categories seran proposats com a representants de la fase local de la Comunitat Valenciana per a la Fase Nacional de la Incubadora de Sondejos i Experiments que organitza la SEIO en col·laboració amb la seu local.
+
+## 7. Criteris de valoració dels treballs {#criteris}
+
+El jurat triarà els treballs guanyadors valorant especialment:
+
+- L'originalitat i innovació del tema triat.
+- La claredat en l'exposició dels objectius del treball, en la descripció de les fases del projecte i en la presentació de resultats i conclusions.
+- La correcta elecció i aplicació de tècniques estadístiques a l'hora de dissenyar la recollida de dades, la seua descripció i l'anàlisi estadística realitzada.
+- La redacció i estructura de l'informe final, alineada amb la següent: caràtula (títol, autors, tutor i centre), índex, introducció/context, mètodes/tècniques, resultats i conclusions. Es donarà pes a la correcció de les cites i referències de les fonts utilitzades.
+- El disseny i presentació, si escau, del o dels qüestionaris utilitzats per a l'obtenció de les dades.
+- El format i la qualitat estètica de l'informe i del vídeo presentats.
+
+## 8. Comunicació de la decisió del jurat i lliurament de premis {#decisio}
+
+La decisió del jurat es donarà a conéixer mitjançant correu electrònic a la tutora o tutor dels treballs guanyadors i serà publicada en la pàgina web del concurs.
+
+El lliurament dels premis i diplomes es realitzarà, sempre que siga possible, en un acte públic i presencial, en el qual els equips preseleccionats presentaran els seus projectes.
+
+En la pàgina web del concurs es podran consultar:
+
+- La data de publicació de la decisió del jurat.
+- La data i el lloc en què tindrà lloc l'acte de lliurament de premis.
+
+## 9. Calendari {#calendari}
+
+El calendari concret d'inscripció, lliurament de treballs i lliurament de premis s'especificarà cada any i es publicarà en la pàgina web del concurs.
+
+## 10. Publicació dels treballs {#publicacio}
+
+Els treballs premiats o que reben algun esment podran ser publicats, indicant els noms dels seus autors/es i tutors/es, en la pàgina web del concurs. L'acceptació d'aquesta publicació serà responsabilitat de les i els professors tutors, com a representants de l'equip participant.
+
+## 11. Reserva de drets {#reserva}
+
+L'organització es reserva el dret a modificar les condicions del concurs, especialment les dates previstes en el calendari, o fins i tot la seua possible anul·lació, sempre que concórrega causa justificada. Aquestes modificacions serien fetes públiques en la pàgina web del concurs.
+
+## 12. Participació en la fase nacional del concurs {#fase-nacional}
+
+Els equips guanyadors de les tres categories seran proposats com a representants de la fase local de la Comunitat Valenciana per a la [Fase Nacional de la Incubadora de Sondejos i Experiments](https://www.seio.es/concurso-incubadora/) que organitza la SEIO en col·laboració amb la seu local designada en la convocatòria vigent.
+
+La presentació dels treballs a la fase nacional no és obligatòria, encara que sí molt recomanable. Les memòries enviades a la fase nacional seran les mateixes que les lliurades en la fase local, excepte canvis mínims de format o traducció al castellà.
+
+## 13. Acceptació de les bases del concurs {#acceptacio}
+
+La participació en el concurs suposa la plena acceptació de les seues bases.
+
+::: {.botones}
+[Descarrega les bases en PDF](https://drive.google.com/file/d/1SeB-2tgjp5spsmyAcjAKU6D7nkc9PC-z/view?usp=sharing){.boton}
 :::
+
+:::
+::::

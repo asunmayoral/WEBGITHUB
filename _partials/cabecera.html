@@ -47,28 +47,38 @@
 
 <script>
 /* Convierte las rutas del menú en enlaces que funcionan desde cualquier carpeta
-   (raíz o /ca/) y tanto en GitHub Pages como abriendo los archivos en local. */
+   (raíz, /ca/, /premios/...) tanto en GitHub Pages como en local. */
 (function () {
   var meta = document.querySelector('meta[name="quarto:offset"]');
   var base = meta ? meta.getAttribute('content') : './';
   var esCa = (document.documentElement.lang || '').indexOf('ca') === 0;
+  // Ruta de la página actual relativa a la raíz de la web (p. ej. "ca/premis/2025")
+  var profundidad = (base.match(/\.\.\//g) || []).length;
+  var trozos = location.pathname.replace(/\/$/, '/index.html').split('/').filter(Boolean);
+  var actual = trozos.slice(-(profundidad + 1)).join('/').replace(/\.html$/, '');
+
   document.querySelectorAll('.vdd-cabecera [data-ruta]').forEach(function (a) {
     var ruta = (esCa && a.dataset.rutaCa) ? a.dataset.rutaCa : a.dataset.ruta;
     a.setAttribute('href', base + ruta);
-    var actual = location.pathname.replace(/\/$/, '/index.html');
-    if (actual.slice(-ruta.length) === ruta && !a.closest('.idioma')) a.setAttribute('aria-current', 'page');
+    var r = ruta.replace(/\.html$/, '');
+    if (!a.closest('.idioma') && (actual === r || actual.indexOf(r + '/') === 0)) a.setAttribute('aria-current', 'page');
   });
+
   // El botón de idioma lleva a la página equivalente en el otro idioma.
-  // Si añades una página nueva con nombre distinto en cada idioma, añádela aquí: "castellano": "valencià"
+  // Si creas una página cuyo nombre cambia entre idiomas, añádela aquí:  "castellano": "valencià"
   var equivalencias = { "index": "index", "bases": "bases", "ayudas": "ajudes", "premios": "premis",
                         "blog": "blog", "acerca-de": "acerca-de" };
-  var pagina = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '');
-  var destino = null;
-  if (esCa) { for (var k in equivalencias) if (equivalencias[k] === pagina) destino = k; }
-  else if (equivalencias[pagina]) destino = 'ca/' + equivalencias[pagina];
-  if (destino) document.querySelectorAll('.vdd-cabecera .idioma a').forEach(function (a) {
+  function traducir(ruta, aCa) {
+    var partes = ruta.split('/'), primera = partes[0];
+    if (aCa) { if (equivalencias[primera]) partes[0] = equivalencias[primera]; return 'ca/' + partes.join('/'); }
+    for (var k in equivalencias) if (equivalencias[k] === primera) partes[0] = k;
+    return partes.join('/');
+  }
+  var destino = esCa ? traducir(actual.replace(/^ca\//, ''), false) : traducir(actual, true);
+  document.querySelectorAll('.vdd-cabecera .idioma a').forEach(function (a) {
     a.setAttribute('href', base + destino + '.html');
   });
+
   document.querySelectorAll('.vdd-cabecera img[data-src]').forEach(function (img) {
     img.src = base + img.dataset.src;
   });

@@ -1,16 +1,157 @@
 ---
 pagetitle: "Bases · Va De Dades!"
+description: "Bases del concurso Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos."
 lang: es
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+<!--
+  BASES DEL CONCURSO (castellano). La versión en valenciano está en ca/bases.qmd
+  Cada apartado empieza con "## N. TÍTULO {#identificador}". El identificador es el que
+  usa el índice del principio para saltar al apartado: si añades uno, añádelo también al índice.
+-->
 
 :::: {.seccion .crema .cabecera-pagina}
-# Bases
+# Bases del concurso
+
+[Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos]{.intro}
+
+::: {.botones .centrado}
+[Descarga las bases en PDF](https://drive.google.com/file/d/1NSfsjmTLMMAVEwNZp2F6NUUuiZfhrpav/view?usp=sharing){.boton}
+:::
 ::::
 
-::: {.lectura}
-::: {.aviso}
-Estamos trasladando esta sección a la nueva web. Mientras tanto, puedes consultarla en la web anterior: [https://vadedades.umh.es/bases/](https://vadedades.umh.es/bases/)
+:::: {.seccion .blanco}
+::: {.lectura .texto-largo}
+
+::: {.indice-bases}
+**Índice**
+
+1. [Convocatoria](#convocatoria)
+2. [Participación](#participacion)
+3. [Objeto del concurso](#objeto)
+4. [Inscripción](#inscripcion)
+5. [Entrega de trabajos](#entrega)
+6. [Premios](#premios)
+7. [Criterios de valoración](#criterios)
+8. [Decisión del jurado y entrega de premios](#decision)
+9. [Calendario](#calendario)
+10. [Publicación de los trabajos](#publicacion)
+11. [Reserva de derechos](#reserva)
+12. [Participación en la fase nacional](#fase-nacional)
+13. [Aceptación de las bases](#aceptacion)
 :::
+
+## 1. Convocatoria {#convocatoria}
+
+El Departamento de Estadística, Matemáticas e Informática de la Universidad Miguel Hernández de Elche (UMH), en colaboración con el Departamento de Estadística e Investigación Operativa Aplicadas y Calidad de la Universitat Politècnica de València (UPV) y el Departament d'Estadística i Investigació Operativa de la Universitat de València (UV), convocan el concurso Va De Dades! Concurso valenciano de Estadística para la Ciencia de Datos, para trabajos de Estadística presentados por estudiantes de ESO, Bachillerato y Ciclos Formativos.
+
+Las profesoras responsables de esta actividad en sus respectivas universidades son: M.ª Asunción Martínez Mayoral (UMH), M. Carmen Aguilera Morillo (UPV) y María del Carmen Martínez Blázquez (UV).
+
+Este concurso se conforma como una fase local en la Comunitat Valenciana del Concurso Tipo "Incubadora de Sondeos y Experimentos" ([Concurso Incubadora – SEIO](https://www.seio.es/concurso-incubadora/)) organizado por la Sociedad de Estadística e Investigación Operativa (SEIO).
+
+El nombre del concurso, "Va De Dades!", está inspirado en la expresión "Va de bo!" con la que se comienza una partida de pelota valenciana.
+
+## 2. Participación {#participacion}
+
+Pueden participar estudiantes de ESO, Bachillerato y Ciclos Formativos, individualmente o por grupos de un máximo de 5 estudiantes. Cada grupo deberá ser tutorizado por profesoras o profesores de su centro. No hay limitación de concursantes para un mismo centro, ni de trabajos tutorizados por un mismo profesor o profesora. Solo se permite una participación por estudiante.
+
+## 3. Objeto del concurso: propuesta y realización de un trabajo/proyecto de Estadística {#objeto}
+
+Las y los participantes en el concurso realizarán un trabajo de estadística, presentado a través de un informe escrito, redactado en cualquiera de las lenguas oficiales de la Comunitat Valenciana. Dicho trabajo deberá utilizar técnicas y conceptos estadísticos para dar respuesta a una pregunta relevante o de interés para el equipo concursante y su entorno. El trabajo debe incluir información sobre el proceso de recogida de datos, así como su descripción gráfica y numérica. En la web del concurso pueden consultarse algunos [esquemas orientativos](ayudas.qmd) para la realización de los trabajos.
+
+**Los datos pueden provenir de las fuentes siguientes:**
+
+- **Un sondeo** diseñado por el equipo concursante sobre un tema de interés general o de interés para el centro educativo o su entorno. En este caso, el cuestionario utilizado para la recogida de datos deberá incluirse en el trabajo.
+- **Un plan experimental** para comparar productos, tratamientos o acontecimientos sobre una población concreta. El experimento planteado puede estar relacionado con alguna de las materias que el alumnado participante esté cursando o cualquier fenómeno cotidiano de interés, trabajado con rigor experimental y científico.
+- **Bases de datos de entidades oficiales** como EUROSTAT, INE, institutos de estadística autonómicos, como el IVE…, de acceso público a través de sus páginas web.
+
+Las y los participantes en el concurso escribirán un informe en el que se describa el trabajo realizado. El informe, cuyo contenido y estructura es libre, deberá presentarse en formato "pdf", y no podrá superar las 30 páginas (anexos incluidos). El tamaño de la letra ha de ser Arial 11 puntos. El informe debe ir acompañado de una presentación en vídeo (de no más de 5 minutos de duración) que sirva de soporte a la eventual presentación en público del trabajo.
+
+Tanto en el informe como en la presentación en vídeo se deben especificar: el objetivo del estudio, la forma en que se lleva a cabo la recogida de los datos (según el caso: diseño de la encuesta y elección de los individuos encuestados, diseño y desarrollo del experimento o referencia a la fuente de los datos y explicación de su origen), la descripción y análisis de los datos, los resultados obtenidos y las conclusiones del estudio.
+
+En la redacción del informe y en la edición del vídeo podrán utilizarse cualesquiera de las lenguas cooficiales de la Comunitat Valenciana.
+
+En caso de que el trabajo sea seleccionado para pasar a la fase nacional, y los autores decidan participar, el idioma obligatorio del informe y del vídeo a presentar allí será el castellano.
+
+Los trabajos presentados deben ser inéditos. No se admitirán investigaciones plagiadas en parte o en su totalidad. También se invalidarán los trabajos que no hayan sido realizados por el alumnado participante.
+
+![](img/bases/grafico.webp){fig-alt="" loading="lazy" width="560"}
+
+## 4. Inscripción {#inscripcion}
+
+Para participar en el concurso es necesario inscribirse, rellenando el **[formulario de inscripción](https://docs.google.com/forms/d/1t6WzJRhqXar0djoKCI3yHNbilAr-fhXcNGv9MoOp-YQ/viewform)** que a tal efecto se facilita en la página web del concurso.
+
+La inscripción la realizará el profesorado que tutoriza el grupo y debe incluir un email de contacto, los datos del alumnado participante y el título del trabajo, así como información del centro de referencia. El plazo de inscripción, así como todas las fechas relevantes, se detallan en la página web del concurso. Toda la comunicación con el grupo de trabajo se gestionará a través del email de contacto del profesorado tutor.
+
+## 5. Entrega de trabajos {#entrega}
+
+El informe y el vídeo del trabajo deben enviarse a través del **formulario de entrega** facilitado a tal efecto en la página web del concurso.
+
+El plazo de presentación de trabajos, así como todas las fechas relevantes, se detallan en la página web del concurso.
+
+## 6. Premios {#premios}
+
+Un jurado mixto compuesto por profesorado universitario y de secundaria evaluará los trabajos presentados y concederá a lo sumo un premio en cada una de las siguientes categorías:
+
+- **Categoría A:** 1.º y 2.º de la ESO.
+- **Categoría B:** 3.º y 4.º de la ESO y Ciclos Formativos de Grado Básico.
+- **Categoría C:** Bachillerato y Ciclos Formativos de Grado Medio.
+
+![](img/categorias-abc.webp){fig-alt="Categorías A, B y C" loading="lazy" width="560"}
+
+El jurado podrá otorgar las menciones que considere oportunas. La decisión del jurado será inapelable.
+
+La participación en el concurso, las menciones y los premios conseguidos se acreditarán mediante diplomas otorgados por la organización a estudiantado, profesorado y centro. Los premios o cuantías de estos serán publicados en la página web del concurso.
+
+Los equipos ganadores de las tres categorías serán propuestos como representantes de la fase local de la Comunitat Valenciana para la Fase Nacional de la Incubadora de Sondeos y Experimentos que organiza la SEIO en colaboración con la sede local.
+
+## 7. Criterios de valoración de los trabajos {#criterios}
+
+El jurado elegirá los trabajos ganadores valorando especialmente:
+
+- La originalidad e innovación del tema elegido.
+- La claridad en la exposición de los objetivos del trabajo, en la descripción de las fases del proyecto y en la presentación de resultados y conclusiones.
+- La correcta elección y aplicación de técnicas estadísticas a la hora de diseñar la recogida de datos, su descripción y el análisis estadístico realizado.
+- La redacción y estructura del informe final, alineada con la siguiente: carátula (título, autores, tutor y centro), índice, introducción/contexto, métodos/técnicas, resultados y conclusiones. Se dará peso a la corrección de las citas y referencias de las fuentes utilizadas.
+- El diseño y presentación, en su caso, del o de los cuestionarios utilizados para la obtención de los datos.
+- El formato y la calidad estética del informe y del vídeo presentados.
+
+## 8. Comunicación de la decisión del jurado y entrega de premios {#decision}
+
+El fallo del jurado se dará a conocer mediante correo electrónico a la tutora o tutor de los trabajos ganadores y será publicado en la página web del concurso.
+
+La entrega de los premios y diplomas se realizará, siempre que sea posible, en un acto público y presencial, en el que los equipos preseleccionados presentarán sus proyectos.
+
+En la página web del concurso se podrán consultar:
+
+- La fecha de publicación del fallo del jurado.
+- La fecha y lugar en la que tendrá lugar el acto de entrega de premios.
+
+## 9. Calendario {#calendario}
+
+El calendario concreto de inscripción, entrega de trabajos y entrega de premios se especificará cada año y se publicará en la página web del concurso.
+
+## 10. Publicación de los trabajos {#publicacion}
+
+Los trabajos premiados o que reciban alguna mención podrán ser publicados, indicando los nombres de sus autores/as y tutores/as, en la página web del concurso. La aceptación de esta publicación será responsabilidad de las y los profesores tutores, como representantes del equipo participante.
+
+## 11. Reserva de derechos {#reserva}
+
+La organización se reserva el derecho a modificar las condiciones del concurso, en especial las fechas previstas en el calendario, o incluso su posible anulación, siempre que concurra causa justificada. Estas modificaciones serían hechas públicas en la página web del concurso.
+
+## 12. Participación en la fase nacional del concurso {#fase-nacional}
+
+Los equipos ganadores de las tres categorías serán propuestos como representantes de la fase local de la Comunitat Valenciana para la [Fase Nacional de la Incubadora de Sondeos y Experimentos](https://www.seio.es/concurso-incubadora/) que organiza la SEIO en colaboración con la sede local designada en la convocatoria vigente.
+
+La presentación de los trabajos a la fase nacional no es obligatoria, aunque sí muy recomendable. Las memorias enviadas a la fase nacional serán las mismas que las entregadas en la fase local, salvo cambios mínimos de formato o traducción al castellano.
+
+## 13. Aceptación de las bases del concurso {#aceptacion}
+
+La participación en el concurso supone la plena aceptación de sus bases.
+
+::: {.botones}
+[Descarga las bases en PDF](https://drive.google.com/file/d/1NSfsjmTLMMAVEwNZp2F6NUUuiZfhrpav/view?usp=sharing){.boton}
 :::
+
+:::
+::::

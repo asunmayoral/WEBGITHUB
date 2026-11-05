@@ -246,3 +246,86 @@ a.boton.secundario { background: transparent; color: $vdd-morado-osc; border-col
 
 // Respeta a quien prefiere menos movimiento
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+// =====================================================================
+// PREMIOS
+// =====================================================================
+.cabecera-pagina { padding-left: 1.25rem; padding-right: 1.25rem; }
+.cabecera-pagina img.titulo-imagen { width: 100%; max-width: 380px; height: auto; }
+@media (max-width: 767px) { .cabecera-pagina img.titulo-imagen { max-width: 240px; } .cabecera-pagina h1 { font-size: 2rem; } }
+.cabecera-pagina .intro { max-width: 640px; margin: 1rem auto 0; font-size: 1.05rem; }
+
+// Cuadrícula de ediciones (página general de premios)
+.ediciones {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
+  max-width: 1000px; margin: 0 auto; padding: 0 1.25rem;
+  > p { display: contents; }
+}
+@media (max-width: 767px) { .ediciones { grid-template-columns: repeat(2, 1fr); gap: 1rem; } }
+a.edicion {
+  display: block; text-align: center; text-decoration: none; color: $vdd-morado-osc; font-weight: 700;
+  border-radius: 16px; padding: .75rem .5rem 1rem; transition: transform .15s, background-color .15s;
+  img { width: 100%; height: auto; display: block; margin-bottom: .4rem; }
+  &:hover, &:focus-visible { transform: translateY(-4px); background: rgba($vdd-amarillo, .15); }
+}
+
+// Gráfico de categorías A, B, C
+img.categorias { display: block; width: calc(100% - 2.5rem); max-width: 460px; height: auto; margin: 0 auto 2rem; }
+
+// Tarjeta de cada premio
+.premios-lista { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+.premio {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); column-gap: 2rem; align-items: start;
+  background: #fff; border: 1px solid #efe5d3; border-left: 8px solid var(--color, #{$vdd-naranja});
+  border-radius: 14px; padding: 1.6rem 1.8rem; margin: 0 0 1.75rem;
+  box-shadow: 0 3px 14px rgba(0,0,0,.05);
+  > * { grid-column: 1; }
+  > .galeria { grid-column: 2; grid-row: 1 / span 20; }
+  h3 { margin: 0 0 .6rem; font-size: 1.3rem; color: var(--texto, #{$vdd-naranja-texto}); }
+  .titulo-trabajo { font-size: 1.15rem; font-weight: 700; color: $vdd-texto; margin-bottom: .7rem; line-height: 1.35; }
+  ul { list-style: none; padding: 0; margin: 0 0 .5rem; }
+  li { margin: .2rem 0; }
+  .nota { display: block; background: rgba($vdd-amarillo, .18); border-radius: 8px; padding: .55rem .8rem; font-size: .95rem; margin-top: .6rem; }
+}
+.premio.cat-a { --color: #{$vdd-naranja}; --texto: #{$vdd-naranja-texto}; }
+.premio.cat-b { --color: #{$vdd-azul-osc}; --texto: #1f7f9e; }
+.premio.cat-c { --color: #{$vdd-amarillo-osc}; --texto: #a86b00; }
+.premio.distincion { --color: #{$vdd-morado}; --texto: #{$vdd-morado-osc}; }
+.premio.sin-fotos { grid-template-columns: 1fr; }
+@media (max-width: 767px) {
+  .premio { grid-template-columns: 1fr; padding: 1.2rem; > .galeria { grid-column: 1; grid-row: auto; margin-top: 1rem; } }
+}
+h2.bloque-premios { text-align: center; margin: 2.5rem 0 1.5rem; }
+
+// Galería de fotos (se amplían al pulsar)
+.galeria {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem;
+  > p { display: contents; }
+  a, img { display: block; }
+  img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; cursor: zoom-in; transition: opacity .15s; }
+  a:hover img { opacity: .85; }
+}
+.galeria.una { grid-template-columns: 1fr; img { aspect-ratio: auto; } }
+
+// Navegación entre ediciones
+.otras-ediciones { text-align: center; margin: 2.5rem auto 0; padding: 0 1.25rem;
+  a { display: inline-block; margin: .25rem; padding: .4rem 1rem; border-radius: 999px; border: 2px solid $vdd-morado; text-decoration: none; font-weight: 700; color: $vdd-morado-osc;
+      &:hover { background: $vdd-morado; color: #fff; } }
+  a[aria-current] { background: $vdd-morado; color: #fff; }
+}
+
+// =====================================================================
+// BASES (texto largo)
+// =====================================================================
+.indice-bases {
+  background: $vdd-crema; border-radius: 12px; padding: 1.1rem 1.5rem; margin: 0 0 2rem;
+  ol { columns: 2; column-gap: 2rem; margin: .4rem 0 0; padding-left: 1.3rem; }
+  li { margin: .15rem 0; break-inside: avoid; }
+  @media (max-width: 600px) { ol { columns: 1; } }
+}
+.texto-largo {
+  h2 { font-size: 1.35rem; margin: 2.2rem 0 .7rem; color: $vdd-morado-osc; scroll-margin-top: 90px; }
+  p, li { line-height: 1.7; }
+  img { display: block; max-width: 100%; height: auto; margin: 1.5rem auto; }
+}
+.centrado { text-align: center; }

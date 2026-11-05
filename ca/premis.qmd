@@ -1,16 +1,35 @@
 ---
 pagetitle: "Premis · Va De Dades!"
+description: "Treballs guanyadors de cada edició de Va De Dades!"
 lang: ca
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+<!--
+  PÀGINA GENERAL DE PREMIS (valencià). Instruccions completes en ../premios.qmd
+  Cada edición tiene su propia página en la carpeta premios/ (premios/2026.qmd, etc.).
+  Para añadir una edición nueva:
+    1. Copia la última (p. ej. premios/2026.qmd) como premios/2027.qmd y cambia su contenido.
+    2. Añade su imagen de portada en img/premios/portada-2027.webp
+    3. Añade aquí una línea nueva al principio de la lista de ediciones.
+    4. Haz lo mismo en valenciano (ca/premis.qmd y ca/premis/2027.qmd).
+-->
 
 :::: {.seccion .crema .cabecera-pagina}
-# Premis
+<h1 class="visually-hidden">Guanyadors</h1>
+
+![](../img/premios/titulo-ca.webp){.titulo-imagen fig-alt="Guanyadors"}
+
+[Treballs premiats en la fase local de la Comunitat Valenciana. Tria una edició:]{.intro}
 ::::
 
-::: {.lectura}
-::: {.aviso}
-Estem traslladant aquesta secció a la nova web. Mentrestant, pots consultar-la en la web anterior: [https://vadedades.umh.es/ca/premis/](https://vadedades.umh.es/ca/premis/)
+:::: {.seccion .blanco}
+::: {.ediciones}
+[![](../img/premios/portada-2026.webp){fig-alt=""} Edició 2026](premis/2026.qmd){.edicion}
+
+[![](../img/premios/portada-2025.webp){fig-alt=""} Edició 2025](premis/2025.qmd){.edicion}
+
+[![](../img/premios/portada-2024.webp){fig-alt=""} Edició 2024](premis/2024.qmd){.edicion}
+
+[![](../img/premios/portada-2023.webp){fig-alt=""} Edició 2023](premis/2023.qmd){.edicion}
 :::
-:::
+::::

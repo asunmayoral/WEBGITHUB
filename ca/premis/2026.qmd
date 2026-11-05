@@ -1,0 +1,118 @@
+---
+pagetitle: "Guanyadors 2026 · Va De Dades!"
+description: "Treballs premiats en la IV edició de Va De Dades! (2026)"
+lang: ca
+lightbox: true
+---
+
+:::: {.seccion .crema .cabecera-pagina}
+<h1 class="visually-hidden">Guanyadors 2026</h1>
+
+![](../../img/premios/cabecera-2026-ca.webp){.titulo-imagen fig-alt="Guanyadors 2026 · fase local Comunitat Valenciana"}
+
+[IV edició · fase local de la Comunitat Valenciana]{.intro}
+::::
+
+:::: {.seccion .blanco}
+![](../../img/categorias-abc.webp){.categorias fig-alt="Categories A, B i C"}
+
+::: {.premios-lista}
+::: {.premio .cat-a}
+### Categoria A · 1r-2n ESO
+
+[«El impacto del uso de las redes sociales»]{.titulo-trabajo}
+
+- **Autoria:** Tesa Borenovic, Irene Carrascosa Catalina, Vera González Mislata i Ainara Sanjuan García
+- **Tutoria:** Borja Navarro Martínez
+- **Centre:** Gençana, Godella (València)
+
+::: {.galeria .una}
+![](../../img/premios/2026/a.webp){.lightbox group="2026-0" fig-alt="Categoria A · 1r-2n ESO" loading="lazy"}
+:::
+:::
+
+::: {.premio .cat-b}
+### Categoria B · 3r-4t ESO + FPB
+
+[«Mirades en risc»]{.titulo-trabajo}
+
+- **Autoria:** Núria Marí Cifre i Li Wndy Xiyan
+- **Tutoria:** Òscar Mascarell Claver
+- **Centre:** IES Almussafes, Almussafes (València)
+
+::: {.galeria .una}
+![](../../img/premios/2026/b.webp){.lightbox group="2026-1" fig-alt="Categoria B · 3r-4t ESO + FPB" loading="lazy"}
+:::
+:::
+
+::: {.premio .cat-c}
+### Categoria C · Batxillerat + FPGM
+
+[«¿Comemos bien? Un estudio práctico sobre la dieta en adolescentes»]{.titulo-trabajo}
+
+- **Autoria:** Aïcha Doumia Gómez i Aitana Palop Mateu
+- **Tutoria:** Virginia Hidalgo Villanueva i Lydia Moragón Fandos
+- **Centre:** IES Juan de Garay, València
+
+::: {.galeria .una}
+![](../../img/premios/2026/c.webp){.lightbox group="2026-2" fig-alt="Categoria C · Batxillerat + FPGM" loading="lazy"}
+:::
+:::
+
+## Distincions especials {.bloque-premios}
+
+::: {.premio .distincion}
+### Distinció especial de l'Institut Valencià d'Estadística (IVE-GVA)
+
+[«Violencia de género»]{.titulo-trabajo}
+
+- **Autoria:** Sofía Barber Vasylevska, Valeria Blasco Garzaran, Lucía de Zárate Albors i Aitana Oliver Meléndez
+- **Tutoria:** Borja Navarro Martínez
+- **Centre:** Gençana, Godella (València)
+
+::: {.galeria .una}
+![](../../img/premios/2026/ive.webp){.lightbox group="2026-10" fig-alt="Distinció especial de l'Institut Valencià d'Estadística (IVE-GVA)" loading="lazy"}
+:::
+:::
+
+::: {.premio .distincion}
+### Distinció especial del Grau en Estadística Empresarial de la UMH
+
+[«El voto a los 16: ¿Estamos preparados?»]{.titulo-trabajo}
+
+- **Autoria:** Mara Ferri Ribera i Violeta Zuccarello de Ves
+- **Tutoria:** Marta Carles Fariña
+- **Centre:** IES Benlliure, València
+
+::: {.galeria .una}
+![](../../img/premios/2026/ee.webp){.lightbox group="2026-11" fig-alt="Distinció especial del Grau en Estadística Empresarial de la UMH" loading="lazy"}
+:::
+:::
+
+::: {.premio .distincion}
+### Distinció especial del Grau en Ciència de Dades i Intel·ligència Artificial de la UMH
+
+[«Uso e impacto de la IA en los jóvenes»]{.titulo-trabajo}
+
+- **Autoria:** Francesc Alegre Romaguera
+- **Tutoria:** José Rodolfo Das López
+- **Centre:** IES Lluís Vives, València
+
+::: {.galeria .una}
+![](../../img/premios/2026/ccdd.webp){.lightbox group="2026-12" fig-alt="Distinció especial del Grau en Ciència de Dades i Intel·ligència Artificial de la UMH" loading="lazy"}
+:::
+:::
+
+:::
+
+::: {.botones}
+[Acta d'adjudicació de premis](https://drive.google.com/file/d/1RDp6GnOSBdwkVd9UO3Tp8F4MQ6KGhJAp/view?usp=sharing){.boton}
+[Fullet de la jornada de lliurament de premis](https://drive.google.com/file/d/1tXWpe7G9X3ZppzEQuA2lFCJUpKNVrrMA/view?usp=drive_link){.boton}
+:::
+
+::: {.otras-ediciones}
+**Altres edicions:** [2026](2026.qmd){aria-current="page"} [2025](2025.qmd) [2024](2024.qmd) [2023](2023.qmd)
+
+[← Totes les edicions](../premis.qmd)
+:::
+::::
