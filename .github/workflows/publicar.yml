@@ -37,7 +37,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+          name: web-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Publicar
         id: despliegue
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: web-${{ github.run_id }}-${{ github.run_attempt }}
