@@ -1,16 +1,53 @@
 ---
 pagetitle: "Quiénes somos · Va De Dades!"
+description: "Origen del concurso Va De Dades!, equipo organizador y entidades patrocinadoras."
 lang: es
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+<!-- QUIÉNES SOMOS (castellano). La versión en valenciano está en ca/acerca-de.qmd -->
 
 :::: {.seccion .crema .cabecera-pagina}
 # Quiénes somos
 ::::
 
-::: {.lectura}
-::: {.aviso}
-Estamos trasladando esta sección a la nueva web. Mientras tanto, puedes consultarla en la web anterior: [https://vadedades.umh.es/acerca_de/](https://vadedades.umh.es/acerca_de/)
+:::: {.seccion .blanco}
+::: {.lectura .texto-largo}
+
+![](img/logo-vadedades-titulo.webp){.logo-centro fig-alt="Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades"}
+
+**Va De Dades!** nace en el curso 2022-2023, promovido por la entonces vicepresidenta de Estadística de la Sociedad de Estadística e Investigación Operativa (SEIO), Carmen Armero, ahora miembro del equipo organizador. La idea base era dar visibilidad a la Comunitat Valenciana en el concurso nacional organizado por la SEIO, «Incubadora de Sondeos y Experimentos».
+
+Surge, pues, como una apuesta decidida, moderna y entusiasta para fomentar la enseñanza, la visibilidad y el aprendizaje de la Estadística en la ESO, el Bachillerato y la Formación Profesional.
+
+El nombre lo ideamos a partir de algo tan nuestro como la *pilota valenciana* y su grito de inicio de juego, **«Va de bo!»**. Esto va de datos, así que nuestro grito tenía que ser **«Va De Dades!»**.
+
+## Equipo
+
+::: {.equipo}
+<div>
+### Organización local
+Asun Martínez Mayoral y Javier Morales (UMH), Carmen Armero (UV).
+</div>
+<div>
+### Organización académica
+Asun Martínez Mayoral y Javier Morales (UMH), Carmen Armero (UV), M.ª Carmen Martínez Blázquez (doctora en Estadística e Investigación Operativa), M.ª Teresa Navarro Moncho, Tomás Queralt Llopis y Mireia Polo Tamarit (SEMCV).
+</div>
 :::
+
+## Patrocinio y colaboración
+
+- Institut Valencià d'Estadística (IVE – GVA).
+- Societat d'Educació Matemàtica de la Comunitat Valenciana Al-Khwarizmi (SEMCV).
+- **Universitat de València:** Departament d'Estadística i Investigació Operativa, Facultat de Ciències Matemàtiques y Delegació per a la Incorporació a la Universitat (Vicerectorat d'Estudis).
+- **Universidad Miguel Hernández de Elche:** Vicerrectorado de Estudiantes y Coordinación, Departamento de Estadística, Matemáticas e Informática, Instituto de Investigación i-MInD, Facultad de Ciencias Experimentales (Grado en Ciencia de Datos e Inteligencia Artificial) y Facultad de Ciencias Sociales y Jurídicas (Grado en Estadística Empresarial).
+
+::: {.logos-patrocinio}
+[![](img/logos/ive-gva.webp){fig-alt="Institut Valencià d'Estadística · Generalitat Valenciana"}](https://pegv.gva.es/es/institut-valenci%C3%A0-d-estad%C3%ADstica-ive-)
 :::
+
+## Contacto
+
+Para cualquier consulta, escríbenos a [vadedades@umh.es](mailto:vadedades@umh.es).
+
+:::
+::::

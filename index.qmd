@@ -54,7 +54,7 @@ Concurso organizado por la Universidad Miguel Hernández de Elche (UMH) y la Uni
 
 :::: {.seccion .amarillo .pico}
 ::: {.tarjetas}
-[![](img/iconos/bases.svg){fig-alt=""} [bases]{.etiqueta}](https://drive.google.com/file/d/1NSfsjmTLMMAVEwNZp2F6NUUuiZfhrpav/view?usp=sharing){.tarjeta .c-azul}
+[![](img/iconos/bases.svg){fig-alt=""} [bases]{.etiqueta}](bases.qmd){.tarjeta .c-azul}
 
 [![](img/iconos/inscripcion.svg){fig-alt=""} [inscripción]{.etiqueta}](https://docs.google.com/forms/d/1t6WzJRhqXar0djoKCI3yHNbilAr-fhXcNGv9MoOp-YQ/viewform){.tarjeta .c-naranja}
 

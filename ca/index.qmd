@@ -54,7 +54,7 @@ Concurs organitzat per la Universitat Miguel Hernández d’Elx (UMH) i la Unive
 
 :::: {.seccion .amarillo .pico}
 ::: {.tarjetas}
-[![](../img/iconos/bases.svg){fig-alt=""} [bases]{.etiqueta}](https://drive.google.com/file/d/1SeB-2tgjp5spsmyAcjAKU6D7nkc9PC-z/view?usp=sharing){.tarjeta .c-azul}
+[![](../img/iconos/bases.svg){fig-alt=""} [bases]{.etiqueta}](bases.qmd){.tarjeta .c-azul}
 
 [![](../img/iconos/inscripcion.svg){fig-alt=""} [inscripció]{.etiqueta}](https://forms.gle/7USnZzbDSPwYT5P1A){.tarjeta .c-naranja}
 

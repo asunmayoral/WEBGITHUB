@@ -1,16 +1,56 @@
 ---
 pagetitle: "Ajudes · Va De Dades!"
+description: "Recursos per a preparar un treball de Va De Dades!: exemples, fonts de dades públiques i programari estadístic."
 lang: ca
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+<!-- AJUDES (valencià). Instruccions d'edició en ../ayudas.qmd -->
 
 :::: {.seccion .crema .cabecera-pagina}
 # Ajudes
+
+[Recursos per a preparar el treball: exemples d'edicions anteriors, fonts de dades públiques i eines per a analitzar-les.]{.intro}
 ::::
 
-::: {.lectura}
-::: {.aviso}
-Estem traslladant aquesta secció a la nova web. Mentrestant, pots consultar-la en la web anterior: [https://vadedades.umh.es/ca/?page_id=1254](https://vadedades.umh.es/ca/?page_id=1254)
+:::: {.seccion .blanco}
+::: {.bloques-recursos}
+
+::: {.recursos .c-naranja}
+### Exemples de treballs
+
+- [Concurs Incubadora de Sondejos i Experiments (SEIO)](https://www.seio.es/concurso-incubadora/). Fase nacional del concurs.
+- [Actes de la XIII fase nacional (2024)](https://drive.google.com/file/d/1R6jZ6oR2ddUkRpAcRfaPyGnBcIENNKOQ/view). Treballs presentats.
+- [Actes de la XII fase nacional (2023)](https://drive.google.com/file/d/1u41Fdot43jUWiy-52kPS8XbzIIWFfYqF/view). Treballs presentats.
+- [Actes de la XI fase nacional (2022)](https://drive.google.com/file/d/12I1xJHZjkQb1IKTUqCQIhMH72CUZXpji/view?usp=share_link). Treballs presentats.
+- [Treballs premiats en Va De Dades!](premis.qmd). Totes les nostres edicions.
 :::
+
+::: {.recursos .c-azul}
+### Fonts públiques de dades
+
+- [IVE · Institut Valencià d'Estadística](https://pegv.gva.es/va/informacion-estadistica). Dades estadístiques de la Comunitat Valenciana.
+- [Portals d'estadística en la Comunitat Valenciana](https://pegv.gva.es/va/enlaces-comunitat-valenciana). Recopilació de l'IVE.
+- [IVIE · Institut Valencià d'Investigacions Econòmiques](https://www.ivie.es/es_ES/bases-de-datos/). Bases de dades.
+- [Google Public Data](https://www.google.com/publicdata/directory?hl=es). Inclou Eurostat, INE, Banc Mundial i Govern Basc.
+- [Kaggle Datasets](https://www.kaggle.com/datasets). Multitud de dades en obert.
 :::
+
+::: {.recursos .c-morado}
+### Programari i enquestes
+
+- [Fulls de càlcul de Google](https://support.google.com/docs/answer/9330962?hl=es-419). Gratuït amb comptes Gmail i Google Workspace.
+- [Excel de Microsoft 365](https://support.microsoft.com/es-es/office/usar-las-herramientas-para-an%C3%A1lisis-para-realizar-an%C3%A1lisis-de-datos-complejos-6c67ccf0-f4a9-487c-8dec-bdb5a2cefab6). Gratuït mitjançant els convenis amb Educació.
+- [R](https://www.r-project.org/) i [R Commander](https://www.uv.es/conesa/CursoR/material/Manual-R-commander.pdf). Programari professional i gratuït; R Commander afig menús per a les anàlisis bàsiques.
+- [Formularis de Google](https://support.google.com/docs/answer/9330962?hl=es-419). Per a fer enquestes en línia.
+- [Protecció de dades en enquestes](https://protecciondatos-lopd.com/empresas/encuestas/). Com respectar el RGPD i la LOPDGDD en recollir dades.
+- [Consells per a una investigació tipus incubadora](https://estudiosestadisticos.ucm.es/idsye-consejos). Guia de la Facultat d'Estudis Estadístics (UCM).
+- [Enquestes d'opinió](http://encuestasdeopinion.blogspot.com/). Com fer una enquesta.
+- [Bones pràctiques d'una enquesta per mostreig](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/encuestas01.pdf). Manual de l'Institut Nacional d'Estadística i Informàtica del Perú.
+:::
+
+:::
+
+::: {.lectura .centrado}
+Tens dubtes sobre el teu treball? Escriu-nos a [vadedades@umh.es](mailto:vadedades@umh.es).
+:::
+::::

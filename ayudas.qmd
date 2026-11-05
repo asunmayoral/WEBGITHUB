@@ -1,16 +1,60 @@
 ---
 pagetitle: "Ayudas · Va De Dades!"
+description: "Recursos para preparar un trabajo de Va De Dades!: ejemplos, fuentes de datos públicas y software estadístico."
 lang: es
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
+<!--
+  AYUDAS (castellano). La versión en valenciano está en ca/ajudes.qmd
+  Cada bloque ::: {.recursos} es una tarjeta con un título (###) y una lista de enlaces.
+  Para añadir un recurso, copia una línea "- [Nombre](enlace). Descripción."
+-->
 
 :::: {.seccion .crema .cabecera-pagina}
 # Ayudas
+
+[Recursos para preparar el trabajo: ejemplos de ediciones anteriores, fuentes de datos públicas y herramientas para analizarlos.]{.intro}
 ::::
 
-::: {.lectura}
-::: {.aviso}
-Estamos trasladando esta sección a la nueva web. Mientras tanto, puedes consultarla en la web anterior: [https://vadedades.umh.es/ayudas/](https://vadedades.umh.es/ayudas/)
+:::: {.seccion .blanco}
+::: {.bloques-recursos}
+
+::: {.recursos .c-naranja}
+### Ejemplos de trabajos
+
+- [Concurso Incubadora de Sondeos y Experimentos (SEIO)](https://www.seio.es/concurso-incubadora/). Fase nacional del concurso.
+- [Actas de la XIII fase nacional (2024)](https://drive.google.com/file/d/1R6jZ6oR2ddUkRpAcRfaPyGnBcIENNKOQ/view?usp=drive_link). Trabajos presentados.
+- [Actas de la XII fase nacional (2023)](https://drive.google.com/file/d/1u41Fdot43jUWiy-52kPS8XbzIIWFfYqF/view). Trabajos presentados.
+- [Actas de la XI fase nacional (2022)](https://drive.google.com/file/d/12I1xJHZjkQb1IKTUqCQIhMH72CUZXpji/view?usp=share_link). Trabajos presentados.
+- [Trabajos premiados en Va De Dades!](premios.qmd). Todas nuestras ediciones.
 :::
+
+::: {.recursos .c-azul}
+### Fuentes públicas de datos
+
+- [IVE · Institut Valencià d'Estadística](https://pegv.gva.es/va/informacion-estadistica). Datos estadísticos de la Comunitat Valenciana.
+- [Portales de estadística en la Comunitat Valenciana](https://pegv.gva.es/va/enlaces-comunitat-valenciana). Recopilación del IVE.
+- [IVIE · Instituto Valenciano de Investigaciones Económicas](https://www.ivie.es/es_ES/bases-de-datos/). Bases de datos.
+- [Google Public Data](https://www.google.com/publicdata/directory?hl=es). Incluye Eurostat, INE, Banco Mundial y Gobierno Vasco.
+- [Kaggle Datasets](https://www.kaggle.com/datasets). Multitud de datos en abierto.
 :::
+
+::: {.recursos .c-morado}
+### Software y encuestas
+
+- [Hojas de cálculo de Google](https://support.google.com/docs/answer/9330962?hl=es-419). Gratuito con cuentas Gmail y Google Workspace.
+- [Excel de Microsoft 365](https://support.microsoft.com/es-es/office/usar-las-herramientas-para-an%C3%A1lisis-para-realizar-an%C3%A1lisis-de-datos-complejos-6c67ccf0-f4a9-487c-8dec-bdb5a2cefab6). Gratuito mediante los convenios con Educación.
+- [R](https://www.r-project.org/) y [R Commander](https://www.uv.es/conesa/CursoR/material/Manual-R-commander.pdf). Software profesional y gratuito; R Commander añade menús para los análisis básicos.
+- [Formularios de Google](https://support.google.com/docs/answer/9330962?hl=es-419). Para hacer encuestas en línea.
+- [Protección de datos en encuestas](https://protecciondatos-lopd.com/empresas/encuestas/). Cómo respetar el RGPD y la LOPDGDD al recoger datos.
+- [Consejos para una investigación tipo incubadora](https://estudiosestadisticos.ucm.es/idsye-consejos). Guía de la Facultad de Estudios Estadísticos (UCM).
+- [Encuestas de opinión](http://encuestasdeopinion.blogspot.com/). Cómo hacer una encuesta.
+- [Buenas prácticas de una encuesta por muestreo](https://www.inei.gob.pe/media/MenuRecursivo/metodologias/encuestas01.pdf). Manual del Instituto Nacional de Estadística e Informática de Perú.
+:::
+
+:::
+
+::: {.lectura .centrado}
+¿Tienes dudas sobre tu trabajo? Escríbenos a [vadedades@umh.es](mailto:vadedades@umh.es).
+:::
+::::
