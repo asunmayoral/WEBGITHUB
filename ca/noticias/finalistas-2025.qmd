@@ -2,7 +2,7 @@
 title: "Finalistes Va De Dades! 2025"
 date: 2025-04-29
 description: "Treballs finalistes de la III edició (2025), que es van presentar en la jornada de lliurament de premis."
-image: ../../img/premios/portada-2025.webp
+image: ../../img/noticias/finalistas-2025/miniatura.webp
 lang: ca
 lightbox: true
 ---

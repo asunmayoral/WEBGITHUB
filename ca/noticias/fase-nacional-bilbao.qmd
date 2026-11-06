@@ -2,7 +2,7 @@
 title: "Fase nacional 2024 a Bilbao"
 date: 2024-06-30
 description: "Fotos de la fase nacional 2024 del Concurs Incubadora de Sondejos i Experiments, celebrada a Bilbao."
-image: ../../img/noticias/fase-nacional-bilbao/portada.webp
+image: ../../img/noticias/fase-nacional-bilbao/miniatura.webp
 lang: ca
 lightbox: true
 ---

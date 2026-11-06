@@ -2,7 +2,7 @@
 title: "Manifiesto de Alfabetización Estadística"
 date: 2024-10-06
 description: "Va De Dades! se suma al Manifiesto de Alfabetización Estadística de la SEIO."
-image: ../img/noticias/manifiesto-alfabetizacion/portada.webp
+image: ../img/noticias/manifiesto-alfabetizacion/miniatura.webp
 lang: es
 lightbox: true
 ---
@@ -15,7 +15,7 @@ lightbox: true
 
 ::: {.lectura .texto-largo .noticia}
 
-![](../img/noticias/manifiesto-alfabetizacion/portada.webp){.portada-noticia .lightbox fig-alt=""}
+![](../img/noticias/manifiesto-alfabetizacion/portada.webp){fig-alt="Sociedad de Estadística e Investigación Operativa (SEIO)" width="320"}
 
 Desde Va De Dades!, comprometidas con la promoción, la formación y el buen uso de la Estadística, nos alineamos con el [Manifiesto de Alfabetización Estadística](https://www.seio.es/manifiesto-alfabetizacion-estadistica) publicado por la Sociedad de Estadística e Investigación Operativa (SEIO).
 
