@@ -36,7 +36,7 @@ lightbox: true
 
 [«Mirades en risc»]{.titulo-trabajo}
 
-- **Autoria:** Núria Marí Cifre i Li Wndy Xiyan
+- **Autoria:** Núria Marí Cifre i Li Wendy Xiyan
 - **Tutoria:** Òscar Mascarell Claver
 - **Centre:** IES Almussafes, Almussafes (València)
 

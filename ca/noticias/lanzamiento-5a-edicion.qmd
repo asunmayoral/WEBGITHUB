@@ -2,7 +2,7 @@
 title: "Llançament de la 5a edició de Va De Dades!"
 date: 2026-10-13
 description: "Comença la cinquena edició del concurs, amb més col·laboradors i la jornada de premis a la UMH (Elx)."
-image: ../../img/calendario-ca.webp
+image: ../../img/noticias/lanzamiento-5a-edicion/portada-ca.webp
 lang: ca
 lightbox: true
 ---
