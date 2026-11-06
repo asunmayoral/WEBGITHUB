@@ -41,6 +41,7 @@ Si cambias algo en castellano, **cámbialo también en la versión en valenciano
 
 | Qué | Dónde |
 |---|---|
+| Cuenta atrás de inscripción | En `index.qmd` y `ca/index.qmd`, cambia la fecha `data-fecha="2027-04-16"` y el texto "Inscripción abierta hasta el…" |
 | Calendario | Sustituir `img/calendario-es.webp` y `img/calendario-ca.webp` (mismo nombre) y actualizar el texto `fig-alt` con las fechas |
 | Enlace al formulario de inscripción | `index.qmd`, `ca/index.qmd` y `_partials/cabecera.html` |
 | Bases (PDF en Drive) | Tarjeta "bases" en `index.qmd` y `ca/index.qmd` |

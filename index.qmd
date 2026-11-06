@@ -2,7 +2,23 @@
 pagetitle: "Va De Dades! · Concurso Valenciano de Estadística para la Ciencia de Datos"
 description: "Concurso para alumnado de ESO, Bachillerato y Ciclos Formativos de la Comunitat Valenciana, organizado por la UMH y la UV."
 lang: es
+lightbox: true
+listing:
+  id: ultimas-noticias
+  contents: "/noticias/*.qmd"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  max-items: 3
+  fields: [image, date, title]
+  image-height: 170px
+  date-format: "D MMMM YYYY"
 ---
+
+<script>
+/* Cuenta atrás de inscripción: cambia la fecha en data-fecha cada curso */
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".cuenta-atras[data-fecha]").forEach(function(e){var d=Math.ceil((new Date(e.dataset.fecha+"T23:59:59")-new Date())/864e5);if(d>0){e.innerHTML=e.dataset.texto.replace("{n}",d).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>");}});});
+</script>
 
 <!--
   PORTADA EN CASTELLANO
@@ -22,6 +38,12 @@ lang: es
 ![](img/logo-portada-es.webp){.logo-portada fig-alt="Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos" width="520" height="187"}
 
 [Porque HOY los protagonistas son los datos]{.lema}
+
+::: {.datos-clave}
+[Gratis]{.chip} [Equipos de hasta 4]{.chip} [ESO · Bachillerato · FP]{.chip}
+:::
+
+[Inscripción abierta hasta el **16 de abril de 2027**]{.cuenta-atras data-fecha="2027-04-16" data-texto="Quedan **{n} días** para inscribirte"}
 
 ::: {.botones}
 [Inscríbete](https://docs.google.com/forms/d/1t6WzJRhqXar0djoKCI3yHNbilAr-fhXcNGv9MoOp-YQ/viewform){.boton}
@@ -46,6 +68,44 @@ Concurso organizado por la Universidad Miguel Hernández de Elche (UMH) y la Uni
 :::
 ::::
 
+:::: {.seccion .blanco .cifras-seccion}
+::: {.cifras}
+<div>[4]{.num}[ediciones]{.txt}</div>
+<div>[81]{.num}[trabajos presentados]{.txt}</div>
+<div>[×2]{.num}[participación en 2026: 34 trabajos]{.txt}</div>
+<div>[🏆]{.num}[premiados en la fase nacional desde 2023]{.txt}</div>
+:::
+::::
+
+:::: {.seccion .crema}
+::: {.contenedor}
+## ¿Cómo participar? {.centrado}
+
+::: {.pasos}
+<div>[1]{.paso-num}
+**Forma tu equipo**
+
+Hasta 4 estudiantes, con un profesor o profesora de tu centro como tutor.
+</div>
+<div>[2]{.paso-num}
+**Elige tu pregunta**
+
+Un tema que os interese de verdad: encuesta, experimento o datos oficiales.
+</div>
+<div>[3]{.paso-num}
+**Envía tu trabajo**
+
+Informe (máx. 15 páginas) y presentación, con el formulario de inscripción.
+</div>
+<div>[4]{.paso-num}
+**¡Preséntalo!**
+
+Si sois finalistas, lo presentáis ante el jurado en la jornada de premios en Elche.
+</div>
+:::
+:::
+::::
+
 :::: {.seccion .morado .calendario}
 ::: {.contenedor}
 ![](img/calendario-es.webp){fig-alt="Calendario: inscripción y envío de trabajos hasta el 16/04/2027; publicación de finalistas el 07/05/2027; jornada de premios en Elche el 21/05/2027." width="1200" height="330" loading="lazy"}
@@ -61,6 +121,88 @@ Concurso organizado por la Universidad Miguel Hernández de Elche (UMH) y la Uni
 [![](img/iconos/ayudas.svg){fig-alt=""} [ayudas]{.etiqueta}](ayudas.qmd){.tarjeta .c-amarillo}
 
 [![](img/iconos/premios.svg){fig-alt=""} [premios]{.etiqueta}](premios.qmd){.tarjeta .c-morado}
+:::
+::::
+
+:::: {.seccion .blanco}
+::: {.contenedor}
+## ¿Qué te llevas? {.centrado}
+
+::: {.beneficios}
+<div>[🎓]{.icono-grande}
+**Diploma de participación**
+
+Para todo el alumnado, el profesorado tutor y el centro.
+</div>
+<div>[🏆]{.icono-grande}
+**Premios y diplomas**
+
+Para los equipos ganadores de cada categoría.
+</div>
+<div>[🎤]{.icono-grande}
+**Presentar ante un jurado**
+
+En la jornada de entrega de premios, en la Universidad Miguel Hernández de Elche.
+</div>
+<div>[📊]{.icono-grande}
+**Investigar con datos reales**
+
+Sobre un tema que te interese, como lo hacen los científicos de datos.
+</div>
+:::
+:::
+::::
+
+:::: {.seccion .crema}
+::: {.contenedor}
+## ¿De qué puede ir tu trabajo? {.centrado}
+
+[Cualquier tema vale si lo puedes medir. Algunos de nuestros trabajos ganadores:]{.subtitulo-seccion}
+
+::: {.ideas}
+[«¿Comemos bien? Un estudio práctico sobre la dieta en adolescentes» [2026 · Bachillerato]{.idea-meta}](premios/2026.qmd){.idea}
+
+[«Mirades en risc» [2026 · 3.º-4.º ESO]{.idea-meta}](premios/2026.qmd){.idea}
+
+[«Motxilles: un problema de pes» [2025 · Bachillerato]{.idea-meta}](premios/2025.qmd){.idea}
+
+[«Los efectos de la DANA en la concienciación juvenil» [2025 · 1.º-2.º ESO]{.idea-meta}](premios/2025.qmd){.idea}
+:::
+:::
+::::
+
+:::: {.seccion .blanco .fotos-seccion}
+::: {.tira-fotos}
+![](img/noticias/avatar-2026/portada.webp){.lightbox group="portada" fig-alt="Equipos de Va De Dades! en AVATAR 2026" loading="lazy"}
+![](img/noticias/celebracion-2026/portada.webp){.lightbox group="portada" fig-alt="Jornada de premios 2026" loading="lazy"}
+![](img/noticias/celebracion-2025/portada.webp){.lightbox group="portada" fig-alt="Jornada de premios 2025" loading="lazy"}
+![](img/noticias/celebracion-2024/portada.webp){.lightbox group="portada" fig-alt="Jornada de premios 2024" loading="lazy"}
+:::
+::::
+
+:::: {.seccion .morado}
+::: {.contenedor .docentes}
+## ¿Eres docente?
+
+Tú haces la inscripción y acompañas al equipo. Te ayudamos con ejemplos, fuentes de datos y formación con los CEFIRE para trabajar proyectos de investigación con tu alumnado.
+
+::: {.botones}
+[Recursos y ayudas](ayudas.qmd){.boton}
+[Formación para el profesorado](https://sites.google.com/umh.es/iaestadisticavadedades/inicio){.boton .claro}
+:::
+:::
+::::
+
+:::: {.seccion .blanco}
+::: {.contenedor}
+## Últimas noticias {.centrado}
+
+::: {#ultimas-noticias}
+:::
+
+::: {.botones}
+[Ver todas las noticias](blog.qmd){.boton .secundario}
+:::
 :::
 ::::
 

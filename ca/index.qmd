@@ -2,7 +2,23 @@
 pagetitle: "Va De Dades! · Concurs Valencià d'Estadística per a la Ciència de Dades"
 description: "Concurs per a alumnat d'ESO, Batxillerat i Cicles Formatius de la Comunitat Valenciana, organitzat per la UMH i la UV."
 lang: ca
+lightbox: true
+listing:
+  id: ultimas-noticias
+  contents: "noticias/*.qmd"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  max-items: 3
+  fields: [image, date, title]
+  image-height: 170px
+  date-format: "D MMMM YYYY"
 ---
+
+<script>
+/* Compte enrere d'inscripció: canvia la data en data-fecha cada curs */
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".cuenta-atras[data-fecha]").forEach(function(e){var d=Math.ceil((new Date(e.dataset.fecha+"T23:59:59")-new Date())/864e5);if(d>0){e.innerHTML=e.dataset.texto.replace("{n}",d).replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>");}});});
+</script>
 
 <!--
   PORTADA EN VALENCIÀ
@@ -22,6 +38,12 @@ lang: ca
 ![](../img/logo-portada-ca.webp){.logo-portada fig-alt="Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades" width="520" height="187"}
 
 [Perquè HUI els protagonistes són les dades]{.lema}
+
+::: {.datos-clave}
+[Gratuït]{.chip} [Equips de fins a 4]{.chip} [ESO · Batxillerat · FP]{.chip}
+:::
+
+[Inscripció oberta fins al **16 d'abril de 2027**]{.cuenta-atras data-fecha="2027-04-16" data-texto="Queden **{n} dies** per a inscriure't"}
 
 ::: {.botones}
 [Inscriu-te](https://forms.gle/7USnZzbDSPwYT5P1A){.boton}
@@ -46,6 +68,44 @@ Concurs organitzat per la Universitat Miguel Hernández d’Elx (UMH) i la Unive
 :::
 ::::
 
+:::: {.seccion .blanco .cifras-seccion}
+::: {.cifras}
+<div>[4]{.num}[edicions]{.txt}</div>
+<div>[81]{.num}[treballs presentats]{.txt}</div>
+<div>[×2]{.num}[participació el 2026: 34 treballs]{.txt}</div>
+<div>[🏆]{.num}[premiats en la fase nacional des de 2023]{.txt}</div>
+:::
+::::
+
+:::: {.seccion .crema}
+::: {.contenedor}
+## Com participar? {.centrado}
+
+::: {.pasos}
+<div>[1]{.paso-num}
+**Forma el teu equip**
+
+Fins a 4 estudiants, amb un professor o professora del teu centre com a tutor.
+</div>
+<div>[2]{.paso-num}
+**Tria la teua pregunta**
+
+Un tema que us interesse de veritat: enquesta, experiment o dades oficials.
+</div>
+<div>[3]{.paso-num}
+**Envia el teu treball**
+
+Informe (màx. 15 pàgines) i presentació, amb el formulari d'inscripció.
+</div>
+<div>[4]{.paso-num}
+**Presenta'l!**
+
+Si sou finalistes, el presenteu davant del jurat en la jornada de premis a Elx.
+</div>
+:::
+:::
+::::
+
 :::: {.seccion .morado .calendario}
 ::: {.contenedor}
 ![](../img/calendario-ca.webp){fig-alt="Calendari: inscripció i enviament de treballs fins al 16/04/2027; publicació de finalistes el 07/05/2027; jornada de premis a Elx el 21/05/2027." width="1200" height="330" loading="lazy"}
@@ -61,6 +121,88 @@ Concurs organitzat per la Universitat Miguel Hernández d’Elx (UMH) i la Unive
 [![](../img/iconos/ayudas.svg){fig-alt=""} [ajudes]{.etiqueta}](ajudes.qmd){.tarjeta .c-amarillo}
 
 [![](../img/iconos/premios.svg){fig-alt=""} [premis]{.etiqueta}](premis.qmd){.tarjeta .c-morado}
+:::
+::::
+
+:::: {.seccion .blanco}
+::: {.contenedor}
+## Què t'emportes? {.centrado}
+
+::: {.beneficios}
+<div>[🎓]{.icono-grande}
+**Diploma de participació**
+
+Per a tot l'alumnat, el professorat tutor i el centre.
+</div>
+<div>[🏆]{.icono-grande}
+**Premis i diplomes**
+
+Per als equips guanyadors de cada categoria.
+</div>
+<div>[🎤]{.icono-grande}
+**Presentar davant d'un jurat**
+
+En la jornada de lliurament de premis, a la Universitat Miguel Hernández d'Elx.
+</div>
+<div>[📊]{.icono-grande}
+**Investigar amb dades reals**
+
+Sobre un tema que t'interesse, com ho fan els científics de dades.
+</div>
+:::
+:::
+::::
+
+:::: {.seccion .crema}
+::: {.contenedor}
+## De què pot anar el teu treball? {.centrado}
+
+[Qualsevol tema val si el pots mesurar. Alguns dels nostres treballs guanyadors:]{.subtitulo-seccion}
+
+::: {.ideas}
+[«¿Comemos bien? Un estudio práctico sobre la dieta en adolescentes» [2026 · Batxillerat]{.idea-meta}](premis/2026.qmd){.idea}
+
+[«Mirades en risc» [2026 · 3r-4t ESO]{.idea-meta}](premis/2026.qmd){.idea}
+
+[«Motxilles: un problema de pes» [2025 · Batxillerat]{.idea-meta}](premis/2025.qmd){.idea}
+
+[«Los efectos de la DANA en la concienciación juvenil» [2025 · 1r-2n ESO]{.idea-meta}](premis/2025.qmd){.idea}
+:::
+:::
+::::
+
+:::: {.seccion .blanco .fotos-seccion}
+::: {.tira-fotos}
+![](../img/noticias/avatar-2026/portada.webp){.lightbox group="portada" fig-alt="Equips de Va De Dades! en AVATAR 2026" loading="lazy"}
+![](../img/noticias/celebracion-2026/portada.webp){.lightbox group="portada" fig-alt="Jornada de premis 2026" loading="lazy"}
+![](../img/noticias/celebracion-2025/portada.webp){.lightbox group="portada" fig-alt="Jornada de premis 2025" loading="lazy"}
+![](../img/noticias/celebracion-2024/portada.webp){.lightbox group="portada" fig-alt="Jornada de premis 2024" loading="lazy"}
+:::
+::::
+
+:::: {.seccion .morado}
+::: {.contenedor .docentes}
+## Ets docent?
+
+Tu fas la inscripció i acompanyes l'equip. T'ajudem amb exemples, fonts de dades i formació amb els CEFIRE per a treballar projectes d'investigació amb el teu alumnat.
+
+::: {.botones}
+[Recursos i ajudes](ajudes.qmd){.boton}
+[Formació per al professorat](https://sites.google.com/umh.es/iaestadisticavadedades/inicio){.boton .claro}
+:::
+:::
+::::
+
+:::: {.seccion .blanco}
+::: {.contenedor}
+## Últimes notícies {.centrado}
+
+::: {#ultimas-noticias}
+:::
+
+::: {.botones}
+[Veure totes les notícies](blog.qmd){.boton .secundario}
+:::
 :::
 ::::
 
