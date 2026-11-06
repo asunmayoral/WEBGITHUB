@@ -1,0 +1,39 @@
+---
+title: "Lanzamiento de la 4.ª edición de Va De Dades!"
+date: 2025-11-06
+description: "Arranca la cuarta edición del concurso Va De Dades!"
+image: ../img/noticias/lanzamiento-4a-edicion/fechas-es.webp
+lang: es
+lightbox: true
+---
+
+<!--
+  NOTICIA (castellano). La versión en valenciano está en ca/noticias/lanzamiento-4a-edicion.qmd
+  "image" es la foto que aparece en el listado de noticias.
+  Para una noticia nueva: copia este archivo con otro nombre, cambia título, fecha, descripción, imagen y texto.
+-->
+
+::: {.lectura .texto-largo .noticia}
+
+Desde la organización del concurso, un año más anunciamos el lanzamiento de la **cuarta edición del concurso *Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos***.
+
+La actividad va dirigida a estudiantes de ESO, Bachillerato y Ciclos Formativos de la Comunitat Valenciana, y concluye en una fase nacional organizada por la Sociedad de Estadística e Investigación Operativa, SEIO.
+
+El objetivo de este concurso es promover la alfabetización estadística, proporcionando al profesorado una oportunidad para trabajar de forma motivadora con el alumnado las competencias digitales, la resolución de problemas, la búsqueda de información, la capacidad crítica y la analítica de datos, en cualquier disciplina científica, lingüística, artística o social, e incluso multidisciplinar.
+
+La información completa del concurso está publicada en esta web, junto con noticias sobre las ediciones anteriores y [material de ayuda para el profesorado](../ayudas.qmd), además de nuestro contacto, [vadedades@umh.es](mailto:vadedades@umh.es), por si necesitáis cualquier tipo de información o ayuda adicional.
+
+Quedamos a vuestra disposición y estaremos encantadas de atender vuestras consultas y, por supuesto, de contar con vuestra participación.
+
+Muy atentamente os saludamos:
+
+- Carmen Armero Cervera (Universitat de València)
+- Carmen Martínez Blázquez (Universitat de València)
+- Asun Martínez Mayoral (Universidad Miguel Hernández de Elche)
+- Javier Morales Socuéllamos (Universidad Miguel Hernández de Elche)
+
+![](../img/noticias/lanzamiento-4a-edicion/fechas-es.webp){fig-alt="Fechas de la 4.ª edición"}
+
+[← Todas las noticias](../blog.qmd){.volver}
+
+:::

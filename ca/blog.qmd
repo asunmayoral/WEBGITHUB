@@ -1,16 +1,22 @@
 ---
+title: "Notícies"
 pagetitle: "Notícies · Va De Dades!"
+description: "Notícies i cròniques de Va De Dades!"
 lang: ca
+listing:
+  contents: "noticias/*.qmd"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  fields: [image, date, title, description]
+  image-height: 190px
+  image-placeholder: ../img/logo-vadedades-titulo.webp
+  date-format: "D MMMM YYYY"
+  sort-ui: false
+  filter-ui: false
+  page-size: 12
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
-
-:::: {.seccion .crema .cabecera-pagina}
-# Notícies
-::::
-
-::: {.lectura}
-::: {.aviso}
-Estem traslladant aquesta secció a la nova web. Mentrestant, pots consultar-la en la web anterior: [https://vadedades.umh.es/ca/blog/](https://vadedades.umh.es/ca/blog/)
-:::
-:::
+<!--
+  LLISTAT DE NOTÍCIES (valencià). Es genera a partir dels arxius de ca/noticias/. Instruccions en ../blog.qmd
+-->

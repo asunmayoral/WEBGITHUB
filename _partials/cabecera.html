@@ -61,7 +61,8 @@
     var ruta = (esCa && a.dataset.rutaCa) ? a.dataset.rutaCa : a.dataset.ruta;
     a.setAttribute('href', base + ruta);
     var r = ruta.replace(/\.html$/, '');
-    if (!a.closest('.idioma') && (actual === r || actual.indexOf(r + '/') === 0)) a.setAttribute('aria-current', 'page');
+    var seccion = actual.replace(/(^|\/)noticias\//, '$1blog/');   // las noticias pertenecen a "Noticias"
+    if (!a.closest('.idioma') && (actual === r || seccion.indexOf(r + '/') === 0)) a.setAttribute('aria-current', 'page');
   });
 
   // El botón de idioma lleva a la página equivalente en el otro idioma.

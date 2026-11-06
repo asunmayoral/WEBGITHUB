@@ -1,0 +1,31 @@
+---
+title: "Fase nacional 2024 a Bilbao"
+date: 2024-06-30
+description: "Fotos de la fase nacional 2024 del Concurs Incubadora de Sondejos i Experiments, celebrada a Bilbao."
+image: ../../img/noticias/fase-nacional-bilbao/portada.webp
+lang: ca
+lightbox: true
+---
+
+<!-- NOTÍCIA (valencià). Instruccions en ../../noticias/fase-nacional-bilbao.qmd -->
+
+::: {.lectura .texto-largo .noticia}
+
+![](../../img/noticias/fase-nacional-bilbao/portada.webp){.portada-noticia .lightbox fig-alt=""}
+
+Imatges de la fase nacional 2024 del Concurs Incubadora de Sondejos i Experiments, celebrada a Bilbao, a la qual van acudir els equips guanyadors de Va De Dades! 2024 amb els seus tutors. Allí, [Yousra Saidi va aconseguir el premi a la millor presentació](exito-fase-nacional-2024.qmd).
+
+::: {.galeria .galeria-noticia}
+![](../../img/noticias/fase-nacional-bilbao/app-suicidio.webp){.lightbox group="fase-nacional-bilbao" fig-alt="Foto 1" loading="lazy"}
+![](../../img/noticias/fase-nacional-bilbao/grupo.webp){.lightbox group="fase-nacional-bilbao" fig-alt="Foto 2" loading="lazy"}
+![](../../img/noticias/fase-nacional-bilbao/inscritos.webp){.lightbox group="fase-nacional-bilbao" fig-alt="Foto 3" loading="lazy"}
+![](../../img/noticias/fase-nacional-bilbao/yousra.webp){.lightbox group="fase-nacional-bilbao" fig-alt="Foto 4" loading="lazy"}
+:::
+
+::: {.botones}
+[Més fotos de la fase nacional 2024](https://drive.google.com/drive/folders/1Y2UEUcgdaXXLV51dWHFXBpssYt_tuqgG){.boton}
+:::
+
+[← Totes les notícies](../blog.qmd){.volver}
+
+:::

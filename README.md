@@ -48,6 +48,23 @@ Si cambias algo en castellano, **cámbialo también en la versión en valenciano
 
 Para convertir una imagen PNG o JPG a WebP: <https://squoosh.app> (gratuito y en el navegador).
 
+### Publicar una noticia nueva
+
+1. Copia una noticia existente de la carpeta `noticias/` (por ejemplo `celebracion-2026.qmd`) con un nombre nuevo, sin espacios ni tildes: `jornada-2027.qmd`.
+2. Cambia en la cabecera `title`, `date` (AAAA-MM-DD), `description` e `image` (la foto que sale en el listado).
+3. Escribe el texto. Para una galería de fotos:
+
+   ```
+   ::: {.galeria .galeria-noticia}
+   ![](../img/noticias/jornada-2027/foto-1.webp){.lightbox group="jornada-2027"}
+   ![](../img/noticias/jornada-2027/foto-2.webp){.lightbox group="jornada-2027"}
+   :::
+   ```
+
+   Para un vídeo de YouTube: `{{< video https://www.youtube.com/embed/CODIGO >}}`
+4. Haz lo mismo en valenciano en `ca/noticias/` con el **mismo nombre de archivo**.
+5. La noticia aparece sola, ordenada por fecha, en la página de Noticias.
+
 ## Ver la web en tu ordenador
 
 1. Instala Quarto: <https://quarto.org/docs/get-started/>
@@ -89,5 +106,5 @@ súbelo, y en *Settings → Pages* escribe `vadedades.umh.es` en *Custom domain*
 - [x] Bases
 - [x] Ayudas / Ajudes
 - [x] Premios / Premis (ediciones 2023 a 2026)
-- [ ] Noticias / Notícies (17 entradas del blog, con galerías y vídeos)
+- [x] Noticias / Notícies (17 entradas, en noticias/ y ca/noticias/)
 - [x] Quiénes somos / Qui som

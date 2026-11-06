@@ -1,16 +1,24 @@
 ---
+title: "Noticias"
 pagetitle: "Noticias · Va De Dades!"
+description: "Noticias y crónicas de Va De Dades!"
 lang: es
+listing:
+  contents: "/noticias/*.qmd"
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  fields: [image, date, title, description]
+  image-height: 190px
+  image-placeholder: img/logo-vadedades-titulo.webp
+  date-format: "D MMMM YYYY"
+  sort-ui: false
+  filter-ui: false
+  page-size: 12
 ---
 
-<!-- PÁGINA PROVISIONAL: se completará con el contenido trasladado de la web anterior -->
-
-:::: {.seccion .crema .cabecera-pagina}
-# Noticias
-::::
-
-::: {.lectura}
-::: {.aviso}
-Estamos trasladando esta sección a la nueva web. Mientras tanto, puedes consultarla en la web anterior: [https://vadedades.umh.es/blog/](https://vadedades.umh.es/blog/)
-:::
-:::
+<!--
+  LISTADO DE NOTICIAS (castellano). Se genera solo a partir de los archivos de la carpeta noticias/, ordenados por fecha.
+  Para publicar una noticia nueva, añade un archivo .qmd en noticias/ (copia uno existente como modelo)
+  y su versión en valenciano en ca/noticias/.
+-->

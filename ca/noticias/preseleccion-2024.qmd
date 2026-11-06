@@ -1,0 +1,24 @@
+---
+title: "Preselecció Va De Dades! 2024"
+date: 2024-04-26
+description: "Treballs preseleccionats en la II edició (2024)."
+image: ../../img/logo-vadedades-titulo.webp
+lang: ca
+lightbox: true
+---
+
+<!-- NOTÍCIA (valencià). Instruccions en ../../noticias/preseleccion-2024.qmd -->
+
+::: {.lectura .texto-largo .noticia}
+
+![](../../img/logo-vadedades-titulo.webp){.portada-noticia .lightbox fig-alt=""}
+
+Ja coneixem els treballs preseleccionats de la II edició de Va De Dades! Els seus equips exposaran el treball davant el jurat en la jornada de lliurament de premis.
+
+::: {.botones}
+[Veure la preselecció](https://drive.google.com/file/d/1cA3viTlbdkcCdszlCcmBAZ_rTEzFG9Yp/view){.boton}
+:::
+
+[← Totes les notícies](../blog.qmd){.volver}
+
+:::

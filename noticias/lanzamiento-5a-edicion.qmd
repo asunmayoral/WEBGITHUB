@@ -1,0 +1,32 @@
+---
+title: "Lanzamiento de la 5.ª edición de Va De Dades!"
+date: 2026-10-13
+description: "Arranca la quinta edición del concurso, con más colaboradores y la jornada de premios en la UMH (Elche)."
+image: ../img/calendario-es.webp
+lang: es
+lightbox: true
+---
+
+<!--
+  NOTICIA (castellano). La versión en valenciano está en ca/noticias/lanzamiento-5a-edicion.qmd
+  "image" es la foto que aparece en el listado de noticias.
+  Para una noticia nueva: copia este archivo con otro nombre, cambia título, fecha, descripción, imagen y texto.
+-->
+
+::: {.lectura .texto-largo .noticia}
+
+Desde la organización del concurso, un año más anunciamos el lanzamiento de la **V edición del concurso *Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos***.
+
+La actividad va dirigida a estudiantes de ESO, Bachillerato y Ciclos Formativos de la Comunitat Valenciana. Este año viene con novedades: contaremos con más colaboradores y la jornada de entrega de premios se celebrará en la Universidad Miguel Hernández de Elche.
+
+El objetivo de este concurso es promover la alfabetización estadística, proporcionando al profesorado una oportunidad para trabajar de forma motivadora con el alumnado las competencias digitales, la resolución de problemas, la búsqueda de información, la capacidad crítica y la analítica de datos, en cualquier disciplina científica, lingüística, artística o social, e incluso multidisciplinar.
+
+La información completa del concurso está publicada en esta web, junto con noticias sobre las ediciones anteriores y [material de ayuda para el profesorado](../ayudas.qmd), además de nuestro contacto, [vadedades@umh.es](mailto:vadedades@umh.es), por si necesitáis cualquier tipo de información o ayuda adicional.
+
+Quedamos a vuestra disposición y estaremos encantados de atender vuestras consultas y, por supuesto, de contar con vuestra participación. Podéis descargar el folleto del concurso desde la [página de inicio](../index.qmd).
+
+![](../img/calendario-es.webp){fig-alt="Calendario 2026-2027: inscripción y envío de trabajos hasta el 16/04/2027; publicación de finalistas el 07/05/2027; jornada de premios en Elche el 21/05/2027."}
+
+[← Todas las noticias](../blog.qmd){.volver}
+
+:::

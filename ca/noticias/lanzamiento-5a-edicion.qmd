@@ -1,0 +1,28 @@
+---
+title: "Llançament de la 5a edició de Va De Dades!"
+date: 2026-10-13
+description: "Comença la cinquena edició del concurs, amb més col·laboradors i la jornada de premis a la UMH (Elx)."
+image: ../../img/calendario-ca.webp
+lang: ca
+lightbox: true
+---
+
+<!-- NOTÍCIA (valencià). Instruccions en ../../noticias/lanzamiento-5a-edicion.qmd -->
+
+::: {.lectura .texto-largo .noticia}
+
+Des de l'organització del concurs, un any més anunciem el llançament de la **V edició del concurs *Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades***.
+
+L'activitat va dirigida a estudiants d'ESO, Batxillerat i Cicles Formatius de la Comunitat Valenciana. Enguany ve amb novetats: comptarem amb més col·laboradors i la jornada de lliurament de premis se celebrarà a la Universitat Miguel Hernández d'Elx.
+
+L'objectiu d'aquest concurs és promoure l'alfabetització estadística, proporcionant al professorat una oportunitat per a treballar de manera motivadora amb l'alumnat les competències digitals, la resolució de problemes, la cerca d'informació, la capacitat crítica i l'analítica de dades, en qualsevol disciplina científica, lingüística, artística o social, i fins i tot multidisciplinària.
+
+La informació completa del concurs està publicada en aquesta web, juntament amb notícies sobre les edicions anteriors i [material d'ajuda per al professorat](../ajudes.qmd), a més del nostre contacte, [vadedades@umh.es](mailto:vadedades@umh.es), per si necessiteu qualsevol tipus d'informació o ajuda addicional.
+
+Quedem a la vostra disposició i estarem encantats d'atendre les vostres consultes i, per descomptat, de comptar amb la vostra participació. Podeu descarregar el fullet del concurs des de la [pàgina d'inici](../index.qmd).
+
+![](../../img/calendario-ca.webp){fig-alt="Calendari 2026-2027: inscripció i enviament de treballs fins al 16/04/2027; publicació de finalistes el 07/05/2027; jornada de premis a Elx el 21/05/2027."}
+
+[← Totes les notícies](../blog.qmd){.volver}
+
+:::

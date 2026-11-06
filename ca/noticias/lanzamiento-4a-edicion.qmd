@@ -1,0 +1,35 @@
+---
+title: "Llançament de la 4a edició de Va De Dades!"
+date: 2025-11-06
+description: "Comença la quarta edició del concurs Va De Dades!"
+image: ../../img/noticias/lanzamiento-4a-edicion/fechas-ca.webp
+lang: ca
+lightbox: true
+---
+
+<!-- NOTÍCIA (valencià). Instruccions en ../../noticias/lanzamiento-4a-edicion.qmd -->
+
+::: {.lectura .texto-largo .noticia}
+
+Des de l'organització del concurs, un any més anunciem el llançament de la **quarta edició del concurs *Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades***.
+
+L'activitat va dirigida a estudiants d'ESO, Batxillerat i Cicles Formatius de la Comunitat Valenciana, i conclou en una fase nacional organitzada per la Sociedad de Estadística e Investigación Operativa, SEIO.
+
+L'objectiu d'aquest concurs és promoure l'alfabetització estadística, proporcionant al professorat una oportunitat per a treballar de manera motivadora amb l'alumnat les competències digitals, la resolució de problemes, la cerca d'informació, la capacitat crítica i l'analítica de dades, en qualsevol disciplina científica, lingüística, artística o social, i fins i tot multidisciplinària.
+
+La informació completa del concurs està publicada en aquesta web, juntament amb notícies sobre les edicions anteriors i [material d'ajuda per al professorat](../ajudes.qmd), a més del nostre contacte, [vadedades@umh.es](mailto:vadedades@umh.es), per si necessiteu qualsevol tipus d'informació o ajuda addicional.
+
+Quedem a la vostra disposició i estarem encantades d'atendre les vostres consultes i, per descomptat, de comptar amb la vostra participació.
+
+Molt atentament us saludem:
+
+- Carmen Armero Cervera (Universitat de València)
+- Carmen Martínez Blázquez (Universitat de València)
+- Asun Martínez Mayoral (Universitat Miguel Hernández d'Elx)
+- Javier Morales Socuéllamos (Universitat Miguel Hernández d'Elx)
+
+![](../../img/noticias/lanzamiento-4a-edicion/fechas-ca.webp){fig-alt="Dates de la 4a edició"}
+
+[← Totes les notícies](../blog.qmd){.volver}
+
+:::

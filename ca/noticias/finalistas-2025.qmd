@@ -1,0 +1,24 @@
+---
+title: "Finalistes Va De Dades! 2025"
+date: 2025-04-29
+description: "Treballs finalistes de la III edició (2025), que es van presentar en la jornada de lliurament de premis."
+image: ../../img/premios/portada-2025.webp
+lang: ca
+lightbox: true
+---
+
+<!-- NOTÍCIA (valencià). Instruccions en ../../noticias/finalistas-2025.qmd -->
+
+::: {.lectura .texto-largo .noticia}
+
+![](../../img/premios/portada-2025.webp){.portada-noticia .lightbox fig-alt=""}
+
+Ja coneixem els treballs finalistes de la III edició de Va De Dades! Els seus equips exposaran el treball davant el jurat en la jornada de lliurament de premis.
+
+::: {.botones}
+[Veure la llista de finalistes](https://drive.google.com/file/d/1rgFg_KtK-ADEJmqucIA5UaWs7qMQP6gk/view?usp=sharing){.boton}
+:::
+
+[← Totes les notícies](../blog.qmd){.volver}
+
+:::

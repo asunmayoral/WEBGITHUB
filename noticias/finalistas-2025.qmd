@@ -1,0 +1,28 @@
+---
+title: "Finalistas Va De Dades! 2025"
+date: 2025-04-29
+description: "Trabajos finalistas de la III edición (2025), que se presentaron en la jornada de entrega de premios."
+image: ../img/premios/portada-2025.webp
+lang: es
+lightbox: true
+---
+
+<!--
+  NOTICIA (castellano). La versión en valenciano está en ca/noticias/finalistas-2025.qmd
+  "image" es la foto que aparece en el listado de noticias.
+  Para una noticia nueva: copia este archivo con otro nombre, cambia título, fecha, descripción, imagen y texto.
+-->
+
+::: {.lectura .texto-largo .noticia}
+
+![](../img/premios/portada-2025.webp){.portada-noticia .lightbox fig-alt=""}
+
+Ya conocemos los trabajos finalistas de la III edición de Va De Dades! Sus equipos expondrán el trabajo ante el jurado en la jornada de entrega de premios.
+
+::: {.botones}
+[Ver la lista de finalistas](https://drive.google.com/file/d/1rgFg_KtK-ADEJmqucIA5UaWs7qMQP6gk/view?usp=sharing){.boton}
+:::
+
+[← Todas las noticias](../blog.qmd){.volver}
+
+:::

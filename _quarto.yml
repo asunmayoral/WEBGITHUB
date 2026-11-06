@@ -33,6 +33,7 @@ format:
     anchor-sections: false
     smooth-scroll: true
     link-external-newwindow: true
+    html-math-method: plain   # sin fórmulas matemáticas: páginas más ligeras
     # Cabecera (menú) y pie comunes a todas las páginas, en los dos idiomas
     css: estilos/fuentes.css
     include-before-body: _partials/cabecera.html
