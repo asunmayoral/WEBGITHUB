@@ -19,7 +19,7 @@ lang: ca
 ::: {.contenedor}
 <div>
 
-![](../img/logo-vadedades-titulo.webp){.logo-portada fig-alt="Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades" width="440" height="166"}
+![](../img/logo-portada-ca.webp){.logo-portada fig-alt="Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades" width="520" height="187"}
 
 [Perquè HUI els protagonistes són les dades]{.lema}
 
@@ -69,7 +69,7 @@ Concurs organitzat per la Universitat Miguel Hernández d’Elx (UMH) i la Unive
 ![](../img/folleto-ca.webp){fig-alt="Fullet de Va De Dades!: Perquè HUI els protagonistes són les dades. Una oportunitat única per a descobrir l’Estadística com a ferramenta bàsica per a la Ciència de Dades." width="1400" height="989" loading="lazy"}
 
 ::: {.botones}
-[Descarrega el fullet](https://drive.google.com/file/d/1CbnIxDTqTNoxbnB4rjPBFvkeb93_d2G6/view?usp=sharing){.boton}
+[Descarrega el fullet](https://drive.google.com/file/d/1IGXo_tvauRqep6ghQFIs2yzWJJO9IzXs/view?usp=sharing){.boton}
 :::
 :::
 ::::

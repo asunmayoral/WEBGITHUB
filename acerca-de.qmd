@@ -13,7 +13,7 @@ lang: es
 :::: {.seccion .blanco}
 ::: {.lectura .texto-largo}
 
-![](img/logo-vadedades-titulo.webp){.logo-centro fig-alt="Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades"}
+![](img/logo-portada-es.webp){.logo-centro fig-alt="Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos"}
 
 **Va De Dades!** nace en el curso 2022-2023, promovido por la entonces vicepresidenta de Estadística de la Sociedad de Estadística e Investigación Operativa (SEIO), Carmen Armero, ahora miembro del equipo organizador. La idea base era dar visibilidad a la Comunitat Valenciana en el concurso nacional organizado por la SEIO, «Incubadora de Sondeos y Experimentos».
 
@@ -26,11 +26,11 @@ El nombre lo ideamos a partir de algo tan nuestro como la *pilota valenciana* y 
 ::: {.equipo}
 <div>
 ### Organización local
-Asun Martínez Mayoral y Javier Morales (UMH), Carmen Armero (UV).
+Asun Mtnez. Mayoral y Javier Morales (UMH), Carmen Armero (UV).
 </div>
 <div>
 ### Organización académica
-Asun Martínez Mayoral y Javier Morales (UMH), Carmen Armero (UV), M.ª Carmen Martínez Blázquez (doctora en Estadística e Investigación Operativa), M.ª Teresa Navarro Moncho, Tomás Queralt Llopis y Mireia Polo Tamarit (SEMCV).
+Asun Mtnez. Mayoral y Javier Morales (UMH), Carmen Armero (UV), Mari Carmen Mtnez. Blázquez (doctora en Estadística e Investigación Operativa), M.ª Teresa Navarro Moncho y Tomás Queralt Llopis (SEMCV), y Mireia Polo Tamarit (CEFIRE).
 </div>
 :::
 
@@ -42,7 +42,16 @@ Asun Martínez Mayoral y Javier Morales (UMH), Carmen Armero (UV), M.ª Carmen M
 - **Universidad Miguel Hernández de Elche:** Vicerrectorado de Estudiantes y Coordinación, Departamento de Estadística, Matemáticas e Informática, Instituto de Investigación i-MInD, Facultad de Ciencias Experimentales (Grado en Ciencia de Datos e Inteligencia Artificial) y Facultad de Ciencias Sociales y Jurídicas (Grado en Estadística Empresarial).
 
 ::: {.logos-patrocinio}
-[![](img/logos/ive-gva.webp){fig-alt="Institut Valencià d'Estadística · Generalitat Valenciana"}](https://pegv.gva.es/es/institut-valenci%C3%A0-d-estad%C3%ADstica-ive-)
+[![](img/logos/patrocinio/gva-ive.webp){.logo-principal fig-alt="Generalitat Valenciana · Institut Valencià d'Estadística (IVE)"}](https://pegv.gva.es/es/institut-valenci%C3%A0-d-estad%C3%ADstica-ive-)
+:::
+
+::: {.logos-colaboradores}
+![](img/logos/patrocinio/umh.webp){fig-alt="Universidad Miguel Hernández de Elche" loading="lazy"}
+![](img/logos/patrocinio/uv.webp){fig-alt="Universitat de València" loading="lazy"}
+![](img/logos/patrocinio/uv-fac-dpto.webp){fig-alt="Universitat de València · Facultat de Ciències Matemàtiques · Departament d'Estadística i Investigació Operativa" loading="lazy"}
+![](img/logos/patrocinio/demi-umh.webp){fig-alt="Departamento de Estadística, Matemáticas e Informática (UMH)" loading="lazy"}
+![](img/logos/patrocinio/cio-umh.webp){fig-alt="Instituto de Investigación CIO (UMH)" loading="lazy"}
+![](img/logos/patrocinio/semcv.webp){fig-alt="Societat d'Educació Matemàtica de la Comunitat Valenciana Al-Khwarizmi" loading="lazy"}
 :::
 
 ## Contacto

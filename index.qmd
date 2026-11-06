@@ -19,7 +19,7 @@ lang: es
 ::: {.contenedor}
 <div>
 
-![](img/logo-vadedades-titulo.webp){.logo-portada fig-alt="Va De Dades! Concurs Valencià d'Estadística per a la Ciència de Dades" width="440" height="166"}
+![](img/logo-portada-es.webp){.logo-portada fig-alt="Va De Dades! Concurso Valenciano de Estadística para la Ciencia de Datos" width="520" height="187"}
 
 [Porque HOY los protagonistas son los datos]{.lema}
 
@@ -69,7 +69,7 @@ Concurso organizado por la Universidad Miguel Hernández de Elche (UMH) y la Uni
 ![](img/folleto-es.webp){fig-alt="Folleto de Va De Dades!: Porque HOY los protagonistas son los datos. Una oportunidad única para descubrir la Estadística como herramienta básica para la Ciencia de Datos." width="1400" height="989" loading="lazy"}
 
 ::: {.botones}
-[Descarga el folleto](https://drive.google.com/file/d/1cLXt9BiysTpjK5W5RktIle9UlrSDsWaq/view?usp=sharing){.boton}
+[Descarga el folleto](https://drive.google.com/file/d/1IGXo_tvauRqep6ghQFIs2yzWJJO9IzXs/view?usp=sharing){.boton}
 :::
 :::
 ::::

@@ -107,6 +107,7 @@ lightbox: true
 
 ::: {.botones}
 [Acta d'adjudicació de premis](https://drive.google.com/file/d/1RDp6GnOSBdwkVd9UO3Tp8F4MQ6KGhJAp/view?usp=sharing){.boton}
+[Galeria de fotos de la jornada](https://drive.google.com/drive/folders/1HmKe-7Z-0JrdkfXn0JTcuyaoBnHXkHiJ?usp=sharing){.boton}
 [Fullet de la jornada de lliurament de premis](https://drive.google.com/file/d/1tXWpe7G9X3ZppzEQuA2lFCJUpKNVrrMA/view?usp=drive_link){.boton}
 :::
 

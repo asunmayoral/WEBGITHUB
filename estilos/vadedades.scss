@@ -148,7 +148,7 @@ $ola2: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 
 .portada .contenedor {
   display: grid; grid-template-columns: 1fr 1.15fr; gap: 2rem; align-items: center;
 }
-.portada img.logo-portada { width: 100%; max-width: 440px; height: auto; }
+.portada img.logo-portada { width: 100%; max-width: 520px; height: auto; }
 .portada > p:first-child { margin: 0; height: 0; }
 .portada .contenedor p { margin-bottom: .5rem; }
 .portada .lema { display: block; font-family: "Plus Jakarta Sans", sans-serif; line-height: 1.25; font-size: 1.7rem; margin: 1rem 0 .5rem; color: $vdd-morado-osc; font-weight: 700; }
@@ -159,7 +159,7 @@ $ola2: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 
 
 @media (max-width: 767px) {
   .portada .contenedor { grid-template-columns: 1fr; text-align: center; }
-  .portada img.logo-portada { max-width: 300px; }
+  .portada img.logo-portada { max-width: 340px; margin: 0 auto; }
   .portada img.ilustracion { max-width: 300px; margin: 0 auto; }
   .portada .nube { display: none; }
 }
@@ -358,9 +358,15 @@ h2.bloque-premios { text-align: center; margin: 2.5rem 0 1.5rem; }
   h3 { font-size: 1.05rem; color: $vdd-morado-osc; margin: 0 0 .4rem; }
   p { margin: 0; }
 }
-.logos-patrocinio { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; justify-content: center; margin: 1.5rem 0;
-  img { height: 52px; width: auto; } }
-img.logo-centro { display: block; width: 100%; max-width: 360px; height: auto; margin: 0 auto 1.5rem; }
+.logos-patrocinio { text-align: center; margin: 2rem 0 1.25rem;
+  > p { margin: 0; }
+  img.logo-principal { height: 76px; width: auto; max-width: 100%; margin: 0 auto !important; display: block; } }
+.logos-colaboradores { display: flex; flex-wrap: wrap; gap: 1.6rem 2.2rem; align-items: center; justify-content: center;
+  padding: 1.5rem 0; border-top: 1px solid #efe5d3; margin-bottom: 1rem;
+  > p { display: contents; }
+  img { height: 50px; width: auto; max-width: 100%; margin: 0 !important; } }
+@media (max-width: 600px) { .logos-patrocinio img.logo-principal { height: 58px; } .logos-colaboradores img { height: 40px; } }
+img.logo-centro { display: block; width: 100%; max-width: 440px; height: auto; margin: 0 auto 1.5rem; }
 
 // =====================================================================
 // NOTICIAS: cabecera con título y fecha, listado y entradas

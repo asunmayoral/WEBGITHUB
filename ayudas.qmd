@@ -20,13 +20,11 @@ lang: es
 ::: {.bloques-recursos}
 
 ::: {.recursos .c-naranja}
-### Ejemplos de trabajos
+### Inspírate y fórmate
 
-- [Concurso Incubadora de Sondeos y Experimentos (SEIO)](https://www.seio.es/concurso-incubadora/). Fase nacional del concurso.
-- [Actas de la XIII fase nacional (2024)](https://drive.google.com/file/d/1R6jZ6oR2ddUkRpAcRfaPyGnBcIENNKOQ/view?usp=drive_link). Trabajos presentados.
-- [Actas de la XII fase nacional (2023)](https://drive.google.com/file/d/1u41Fdot43jUWiy-52kPS8XbzIIWFfYqF/view). Trabajos presentados.
-- [Actas de la XI fase nacional (2022)](https://drive.google.com/file/d/12I1xJHZjkQb1IKTUqCQIhMH72CUZXpji/view?usp=share_link). Trabajos presentados.
-- [Trabajos premiados en Va De Dades!](premios.qmd). Todas nuestras ediciones.
+- [Trabajos premiados en Va De Dades!](premios.qmd). Descubre qué preguntas se plantearon los equipos ganadores de todas nuestras ediciones, con sus títulos, autoría y fotos.
+- [Actas de AVATAR · Incubadora de Sondeos y Experimentos](https://avatar.seio.es/ediciones-previas/). Trabajos completos presentados en la fase nacional que organiza la SEIO, donde han competido nuestros equipos ganadores hasta 2026. Más información en la web de [AVATAR](https://avatar.seio.es/).
+- [Formación para el profesorado](https://sites.google.com/umh.es/iaestadisticavadedades/inicio). Junto con los CEFIRE, organizamos cursos para que el profesorado de Secundaria use la IA en proyectos de investigación multidisciplinares con su alumnado. En la web del curso encontrarás todos los recursos de aprendizaje.
 :::
 
 ::: {.recursos .c-azul}

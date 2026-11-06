@@ -1,6 +1,6 @@
 ---
 title: "Celebració Va De Dades! 2026"
-date: 2026-10-13
+date: 2026-05-20
 description: "Crònica de la jornada de lliurament de premis de la IV edició, celebrada el 15 de maig de 2026."
 image: ../../img/noticias/celebracion-2026/portada.webp
 lang: ca
@@ -44,6 +44,7 @@ Consulta les fitxes i fotos dels premiats en [Premis 2026](../premis/2026.qmd).
 
 ::: {.botones}
 [Galeria de fotos](https://drive.google.com/drive/folders/1HmKe-7Z-0JrdkfXn0JTcuyaoBnHXkHiJ?usp=sharing){.boton}
+[Acta d'adjudicació de premis](https://drive.google.com/file/d/1RDp6GnOSBdwkVd9UO3Tp8F4MQ6KGhJAp/view?usp=sharing){.boton}
 [Fullet de la jornada de lliurament de premis](https://drive.google.com/file/d/1tXWpe7G9X3ZppzEQuA2lFCJUpKNVrrMA/view){.boton}
 :::
 

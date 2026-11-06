@@ -16,13 +16,11 @@ lang: ca
 ::: {.bloques-recursos}
 
 ::: {.recursos .c-naranja}
-### Exemples de treballs
+### Inspira't i forma't
 
-- [Concurs Incubadora de Sondejos i Experiments (SEIO)](https://www.seio.es/concurso-incubadora/). Fase nacional del concurs.
-- [Actes de la XIII fase nacional (2024)](https://drive.google.com/file/d/1R6jZ6oR2ddUkRpAcRfaPyGnBcIENNKOQ/view). Treballs presentats.
-- [Actes de la XII fase nacional (2023)](https://drive.google.com/file/d/1u41Fdot43jUWiy-52kPS8XbzIIWFfYqF/view). Treballs presentats.
-- [Actes de la XI fase nacional (2022)](https://drive.google.com/file/d/12I1xJHZjkQb1IKTUqCQIhMH72CUZXpji/view?usp=share_link). Treballs presentats.
-- [Treballs premiats en Va De Dades!](premis.qmd). Totes les nostres edicions.
+- [Treballs premiats en Va De Dades!](premis.qmd). Descobreix quines preguntes es van plantejar els equips guanyadors de totes les nostres edicions, amb els títols, l'autoria i les fotos.
+- [Actes d'AVATAR · Incubadora de Sondejos i Experiments](https://avatar.seio.es/ediciones-previas/). Treballs complets presentats en la fase nacional que organitza la SEIO, on han competit els nostres equips guanyadors fins a 2026. Més informació en la web d'[AVATAR](https://avatar.seio.es/).
+- [Formació per al professorat](https://sites.google.com/umh.es/iaestadisticavadedades/inicio). Juntament amb els CEFIRE, organitzem cursos perquè el professorat de Secundària utilitze la IA en projectes d'investigació multidisciplinaris amb el seu alumnat. En la web del curs trobaràs tots els recursos d'aprenentatge.
 :::
 
 ::: {.recursos .c-azul}

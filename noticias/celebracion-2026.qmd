@@ -1,6 +1,6 @@
 ---
 title: "Celebración Va De Dades! 2026"
-date: 2026-10-13
+date: 2026-05-20
 description: "Crónica de la jornada de entrega de premios de la IV edición, celebrada el 15 de mayo de 2026."
 image: ../img/noticias/celebracion-2026/portada.webp
 lang: es
@@ -48,6 +48,7 @@ Consulta las fichas y fotos de los premiados en [Premios 2026](../premios/2026.q
 
 ::: {.botones}
 [Galería de fotos](https://drive.google.com/drive/folders/1HmKe-7Z-0JrdkfXn0JTcuyaoBnHXkHiJ?usp=sharing){.boton}
+[Acta de adjudicación de premios](https://drive.google.com/file/d/1RDp6GnOSBdwkVd9UO3Tp8F4MQ6KGhJAp/view?usp=sharing){.boton}
 [Folleto de la jornada de entrega de premios](https://drive.google.com/file/d/1tXWpe7G9X3ZppzEQuA2lFCJUpKNVrrMA/view){.boton}
 :::
 
