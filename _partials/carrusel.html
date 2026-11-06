@@ -1,0 +1,39 @@
+<!--
+  CARRUSEL DE FOTOS (se activa en cualquier bloque ::: {.carrusel})
+  Pasa solo cada 4,5 segundos, se para al pasar el ratón o tocarlo,
+  tiene flechas y se puede deslizar con el dedo en el móvil.
+-->
+<script>
+(function () {
+  var reducir = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.querySelectorAll('.carrusel').forEach(function (pista) {
+    var marco = document.createElement('div');
+    marco.className = 'carrusel-marco';
+    pista.parentNode.insertBefore(marco, pista);
+    marco.appendChild(pista);
+    var esCa = (document.documentElement.lang || '').indexOf('ca') === 0;
+    function boton(clase, texto, etiqueta, dir) {
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'carrusel-flecha ' + clase; b.innerHTML = texto;
+      b.setAttribute('aria-label', etiqueta);
+      b.addEventListener('click', function () { mover(dir); reiniciar(); });
+      marco.appendChild(b);
+    }
+    function paso() { var d = pista.firstElementChild; return d ? d.getBoundingClientRect().width + 16 : pista.clientWidth; }
+    function mover(dir) {
+      var fin = pista.scrollLeft + pista.clientWidth >= pista.scrollWidth - 5;
+      if (dir > 0 && fin) pista.scrollTo({ left: 0, behavior: 'smooth' });
+      else if (dir < 0 && pista.scrollLeft <= 5) pista.scrollTo({ left: pista.scrollWidth, behavior: 'smooth' });
+      else pista.scrollBy({ left: dir * paso(), behavior: 'smooth' });
+    }
+    boton('anterior', '&#8249;', esCa ? 'Foto anterior' : 'Foto anterior', -1);
+    boton('siguiente', '&#8250;', esCa ? 'Foto següent' : 'Foto siguiente', 1);
+    var t = null, parado = false;
+    function arrancar() { if (!reducir && !parado) t = setInterval(function () { mover(1); }, 4500); }
+    function reiniciar() { clearInterval(t); arrancar(); }
+    ['mouseenter', 'focusin', 'touchstart'].forEach(function (ev) { marco.addEventListener(ev, function () { parado = true; clearInterval(t); }, { passive: true }); });
+    ['mouseleave', 'focusout'].forEach(function (ev) { marco.addEventListener(ev, function () { parado = false; reiniciar(); }); });
+    arrancar();
+  });
+})();
+</script>

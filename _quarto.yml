@@ -37,4 +37,6 @@ format:
     # Cabecera (menú) y pie comunes a todas las páginas, en los dos idiomas
     css: estilos/fuentes.css
     include-before-body: _partials/cabecera.html
-    include-after-body: _partials/pie.html
+    include-after-body:
+      - _partials/pie.html
+      - _partials/carrusel.html

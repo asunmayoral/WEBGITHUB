@@ -171,12 +171,45 @@ Sobre un tema que t'interesse, com ho fan els científics de dades.
 :::
 ::::
 
-:::: {.seccion .blanco .fotos-seccion}
-::: {.tira-fotos}
-![](../img/noticias/avatar-2026/portada.webp){.lightbox group="portada" fig-alt="Equips de Va De Dades! en AVATAR 2026" loading="lazy"}
-![](../img/noticias/celebracion-2026/portada.webp){.lightbox group="portada" fig-alt="Jornada de premis 2026" loading="lazy"}
-![](../img/noticias/celebracion-2025/portada.webp){.lightbox group="portada" fig-alt="Jornada de premis 2025" loading="lazy"}
-![](../img/noticias/celebracion-2024/portada.webp){.lightbox group="portada" fig-alt="Jornada de premis 2024" loading="lazy"}
+:::: {.seccion .blanco .carrusel-seccion}
+<!-- CARRUSEL DE FOTOS: afig, lleva o reordena línies. -->
+::: {.carrusel}
+![Premi categoria A · 2026](../img/premios/2026/a.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria A · 2026" loading="lazy"}
+
+![Premi categoria B · 2026](../img/premios/2026/b.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria B · 2026" loading="lazy"}
+
+![Premi categoria C · 2026](../img/premios/2026/c.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria C · 2026" loading="lazy"}
+
+![Distinció especial · 2026](../img/premios/2026/ive.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Distinció especial · 2026" loading="lazy"}
+
+![Distinció especial · 2026](../img/premios/2026/ee.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Distinció especial · 2026" loading="lazy"}
+
+![Distinció especial · 2026](../img/premios/2026/ccdd.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Distinció especial · 2026" loading="lazy"}
+
+![Premi categoria A · 2025](../img/premios/2025/a.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria A · 2025" loading="lazy"}
+
+![Premi categoria B · 2025](../img/premios/2025/b.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria B · 2025" loading="lazy"}
+
+![Premi categoria C · 2025](../img/premios/2025/c.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria C · 2025" loading="lazy"}
+
+![Distinció especial · 2025](../img/premios/2025/ive.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Distinció especial · 2025" loading="lazy"}
+
+![Premi categoria B · 2024](../img/premios/2024/b-1.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria B · 2024" loading="lazy"}
+
+![Premi categoria B · 2024](../img/premios/2024/b-4.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria B · 2024" loading="lazy"}
+
+![Premi categoria C · 2024](../img/premios/2024/c-1.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria C · 2024" loading="lazy"}
+
+![Premi categoria C · 2024](../img/premios/2024/c-4.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria C · 2024" loading="lazy"}
+
+![Premi categoria A · 2023](../img/premios/2023/a-2.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria A · 2023" loading="lazy"}
+
+![Premi categoria B · 2023](../img/premios/2023/b-2.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria B · 2023" loading="lazy"}
+
+![Premi categoria B · 2023](../img/premios/2023/b-4.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria B · 2023" loading="lazy"}
+
+![Premi categoria C · 2023](../img/premios/2023/c-3.webp){.lightbox group="carrusel" fig-alt="Equip premiat: Premi categoria C · 2023" loading="lazy"}
+
 :::
 ::::
 

@@ -440,10 +440,31 @@ a.idea { display: block; background: #fff; border-left: 6px solid $vdd-amarillo;
   &:hover { transform: translateY(-3px); } .idea-meta { display: block; font-weight: 600; font-size: .85rem; color: $vdd-naranja-texto; margin-top: .3rem; } }
 @media (max-width: 767px) { .ideas { grid-template-columns: 1fr; } }
 
-.fotos-seccion { padding: 0; }
-.tira-fotos { display: grid; grid-template-columns: repeat(4, 1fr); > p { display: contents; }
-  img { width: 100%; height: 230px; object-fit: cover; display: block; cursor: zoom-in; } }
-@media (max-width: 767px) { .tira-fotos { grid-template-columns: repeat(2, 1fr); img { height: 140px; } } }
+// Carrusel de fotos (ver _partials/carrusel.html)
+.carrusel-seccion { padding: 2.5rem 0; }
+.carrusel-marco { position: relative; max-width: 1200px; margin: 0 auto; padding: 0 1.25rem; }
+.carrusel {
+  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch; padding: .25rem 0;
+  &::-webkit-scrollbar { display: none; }
+  > * { flex: 0 0 calc((100% - 32px) / 3); scroll-snap-align: start; margin: 0 !important; }
+  figure { margin: 0; position: relative; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,.10); }
+  figure p { margin: 0; }
+  img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; cursor: zoom-in; margin: 0 !important; }
+  figcaption { position: absolute; left: 0; right: 0; bottom: 0; margin: 0; padding: 1.6rem .9rem .6rem;
+    background: linear-gradient(transparent, rgba(40,15,55,.78)); color: #fff; font-weight: 700; font-size: .95rem; text-align: left; }
+}
+@media (max-width: 991px) { .carrusel > * { flex-basis: calc((100% - 16px) / 2); } }
+@media (max-width: 600px) { .carrusel > * { flex-basis: 85%; } }
+.carrusel-flecha {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 2;
+  width: 46px; height: 46px; border-radius: 50%; border: none; cursor: pointer;
+  background: rgba(255,255,255,.95); color: $vdd-morado-osc; font-size: 2rem; line-height: 1; font-weight: 700;
+  box-shadow: 0 3px 12px rgba(0,0,0,.18); display: flex; align-items: center; justify-content: center; padding-bottom: 4px;
+  &:hover, &:focus-visible { background: $vdd-amarillo; }
+  &.anterior { left: .4rem; } &.siguiente { right: .4rem; }
+}
+@media (max-width: 600px) { .carrusel-flecha { width: 38px; height: 38px; font-size: 1.6rem; } }
 
 .docentes { text-align: center; max-width: 760px; p { font-size: 1.06rem; } }
 a.boton.claro { background: transparent; color: #fff; border-color: #fff; &:hover { background: rgba(255,255,255,.15); color: #fff; } }

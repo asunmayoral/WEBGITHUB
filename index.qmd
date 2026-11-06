@@ -171,12 +171,45 @@ Sobre un tema que te interese, como lo hacen los científicos de datos.
 :::
 ::::
 
-:::: {.seccion .blanco .fotos-seccion}
-::: {.tira-fotos}
-![](img/noticias/avatar-2026/portada.webp){.lightbox group="portada" fig-alt="Equipos de Va De Dades! en AVATAR 2026" loading="lazy"}
-![](img/noticias/celebracion-2026/portada.webp){.lightbox group="portada" fig-alt="Jornada de premios 2026" loading="lazy"}
-![](img/noticias/celebracion-2025/portada.webp){.lightbox group="portada" fig-alt="Jornada de premios 2025" loading="lazy"}
-![](img/noticias/celebracion-2024/portada.webp){.lightbox group="portada" fig-alt="Jornada de premios 2024" loading="lazy"}
+:::: {.seccion .blanco .carrusel-seccion}
+<!-- CARRUSEL DE FOTOS: añade, quita o reordena líneas. Cada foto: ![Rótulo](ruta){.lightbox group="carrusel" fig-alt="..."} -->
+::: {.carrusel}
+![Premio categoría A · 2026](img/premios/2026/a.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría A · 2026" loading="lazy"}
+
+![Premio categoría B · 2026](img/premios/2026/b.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría B · 2026" loading="lazy"}
+
+![Premio categoría C · 2026](img/premios/2026/c.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría C · 2026" loading="lazy"}
+
+![Distinción especial · 2026](img/premios/2026/ive.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Distinción especial · 2026" loading="lazy"}
+
+![Distinción especial · 2026](img/premios/2026/ee.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Distinción especial · 2026" loading="lazy"}
+
+![Distinción especial · 2026](img/premios/2026/ccdd.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Distinción especial · 2026" loading="lazy"}
+
+![Premio categoría A · 2025](img/premios/2025/a.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría A · 2025" loading="lazy"}
+
+![Premio categoría B · 2025](img/premios/2025/b.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría B · 2025" loading="lazy"}
+
+![Premio categoría C · 2025](img/premios/2025/c.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría C · 2025" loading="lazy"}
+
+![Distinción especial · 2025](img/premios/2025/ive.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Distinción especial · 2025" loading="lazy"}
+
+![Premio categoría B · 2024](img/premios/2024/b-1.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría B · 2024" loading="lazy"}
+
+![Premio categoría B · 2024](img/premios/2024/b-4.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría B · 2024" loading="lazy"}
+
+![Premio categoría C · 2024](img/premios/2024/c-1.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría C · 2024" loading="lazy"}
+
+![Premio categoría C · 2024](img/premios/2024/c-4.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría C · 2024" loading="lazy"}
+
+![Premio categoría A · 2023](img/premios/2023/a-2.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría A · 2023" loading="lazy"}
+
+![Premio categoría B · 2023](img/premios/2023/b-2.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría B · 2023" loading="lazy"}
+
+![Premio categoría B · 2023](img/premios/2023/b-4.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría B · 2023" loading="lazy"}
+
+![Premio categoría C · 2023](img/premios/2023/c-3.webp){.lightbox group="carrusel" fig-alt="Equipo premiado: Premio categoría C · 2023" loading="lazy"}
+
 :::
 ::::
 
